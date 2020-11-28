@@ -1,0 +1,3 @@
+(FDC) Copio los archivos de hardware del Dropbox al repo para ir incorporandolos en el proyecto del bms_hardware si los vamos integrando
+
+

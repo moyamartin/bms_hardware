@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name dc_load_25W-rescue)(type Legacy)(uri ${KIPRJMOD}/dc_load_25W-rescue.lib)(options "")(descr ""))
+  (lib (name dc_load_25W_1-rescue)(type Legacy)(uri ${KIPRJMOD}/dc_load_25W_1-rescue.lib)(options "")(descr ""))
+)
