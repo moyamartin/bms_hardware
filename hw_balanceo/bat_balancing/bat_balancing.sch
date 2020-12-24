@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:bat_balancing-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -264,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 5450 6900 5350
 $Comp
-L Battery_Management:bq76pl536 U1
+L bat_balancing-rescue:bq76pl536-Battery_Management U1
 U 1 1 5C1DB3BA
 P 5650 4800
 F 0 "U1" H 5600 4850 50  0000 L CNN
@@ -1054,7 +1053,7 @@ Connection ~ 3550 4850
 Wire Wire Line
 	3550 4850 4450 4850
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U?
+L bat_balancing-rescue:ATmega328P-AU-MCU_Microchip_ATmega U?
 U 1 1 5CA2BA08
 P 1750 2200
 F 0 "U?" H 1750 614 50  0000 C CNN
