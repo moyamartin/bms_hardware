@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name bq24618)(type Legacy)(uri ${KIPRJMOD}/lib/bq24618_sequential.lib)(options "")(descr ""))
+  (lib (name bq24618_log)(type Legacy)(uri ${KIPRJMOD}/lib/bq24618_logic.lib)(options "")(descr ""))
+)
