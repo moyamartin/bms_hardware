@@ -188,7 +188,7 @@ Wire Wire Line
 	4100 2300 3900 2300
 Connection ~ 3900 2300
 Text HLabel 4100 2300 2    50   Input ~ 0
-CELL_6-
+CELL_5+
 $Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 5FE90A47
@@ -368,7 +368,7 @@ Wire Wire Line
 	4100 3950 3900 3950
 Connection ~ 3900 3950
 Text HLabel 4100 3950 2    50   Input ~ 0
-CELL_5-
+CELL_4+
 $Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 5FE96066
@@ -548,7 +548,7 @@ Wire Wire Line
 	4100 5600 3900 5600
 Connection ~ 3900 5600
 Text HLabel 4100 5600 2    50   Input ~ 0
-CELL_4-
+CELL_3+
 $Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 5FEA558F
@@ -728,7 +728,7 @@ Wire Wire Line
 	9950 2300 9750 2300
 Connection ~ 9750 2300
 Text HLabel 9950 2300 2    50   Input ~ 0
-CELL_3-
+CELL_2+
 $Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 5FEA55F3
@@ -907,8 +907,6 @@ Connection ~ 9750 2750
 Wire Wire Line
 	9950 3950 9750 3950
 Connection ~ 9750 3950
-Text HLabel 9950 3950 2    50   Input ~ 0
-CELL_2-
 $Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 5FEA5657
@@ -1087,10 +1085,12 @@ Connection ~ 9750 4400
 Wire Wire Line
 	9950 5600 9750 5600
 Connection ~ 9750 5600
-Text HLabel 9950 5600 2    50   Input ~ 0
-CELL_1-
 Text HLabel 1450 1100 0    50   Input ~ 0
 VC6
 Text HLabel 1450 1800 0    50   Input ~ 0
 CB6
+Text HLabel 9950 5600 2    50   Output ~ 0
+GND
+Text HLabel 9950 3950 2    50   Output ~ 0
+CELL_1+
 $EndSCHEMATC
