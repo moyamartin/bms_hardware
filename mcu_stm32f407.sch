@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -163,17 +163,6 @@ F 3 "" H 2300 2400 50  0001 C CNN
 $EndComp
 Text GLabel 2900 2200 0    50   Input ~ 0
 VREF+
-$Comp
-L power:VDD #PWR?
-U 1 1 5FE614BB
-P 4100 1200
-F 0 "#PWR?" H 4100 1050 50  0001 C CNN
-F 1 "VDD" H 4115 1373 50  0000 C CNN
-F 2 "" H 4100 1200 50  0001 C CNN
-F 3 "" H 4100 1200 50  0001 C CNN
-	1    4100 1200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 1300 3850 1250
 Wire Wire Line
@@ -238,17 +227,6 @@ Wire Wire Line
 	2900 2200 3150 2200
 Text GLabel 3750 1300 1    50   Input ~ 0
 VBAT
-$Comp
-L power:VDD #PWR?
-U 1 1 5FE7D074
-P 7650 900
-F 0 "#PWR?" H 7650 750 50  0001 C CNN
-F 1 "VDD" H 7665 1073 50  0000 C CNN
-F 2 "" H 7650 900 50  0001 C CNN
-F 3 "" H 7650 900 50  0001 C CNN
-	1    7650 900 
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5FE7DFED
@@ -431,17 +409,6 @@ F 3 "~" H 8000 2500 50  0001 C CNN
 	1    8000 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDD #PWR?
-U 1 1 5FEB7E7F
-P 7100 2200
-F 0 "#PWR?" H 7100 2050 50  0001 C CNN
-F 1 "VDD" H 7115 2373 50  0000 C CNN
-F 2 "" H 7100 2200 50  0001 C CNN
-F 3 "" H 7100 2200 50  0001 C CNN
-	1    7100 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 2200 7200 2200
 Wire Wire Line
@@ -577,17 +544,6 @@ F 3 "~" H 10550 2400 50  0001 C CNN
 	1    10550 2400
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:VDD #PWR?
-U 1 1 5FF036E5
-P 10050 2200
-F 0 "#PWR?" H 10050 2050 50  0001 C CNN
-F 1 "VDD" V 10065 2327 50  0000 L CNN
-F 2 "" H 10050 2200 50  0001 C CNN
-F 3 "" H 10050 2200 50  0001 C CNN
-	1    10050 2200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	10050 2200 10350 2200
 Text GLabel 10200 2300 0    50   Input ~ 0
@@ -626,17 +582,6 @@ F 3 "~" H 3050 1350 50  0001 C CNN
 	1    3050 1350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDD #PWR?
-U 1 1 5FF15C90
-P 3050 1150
-F 0 "#PWR?" H 3050 1000 50  0001 C CNN
-F 1 "VDD" H 3065 1323 50  0000 C CNN
-F 2 "" H 3050 1150 50  0001 C CNN
-F 3 "" H 3050 1150 50  0001 C CNN
-	1    3050 1150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2950 1600 3050 1600
 Wire Wire Line
@@ -652,4 +597,59 @@ Text Notes 10550 2400 0    50   ~ 0
 SWDIO
 Text Notes 10550 2500 0    50   ~ 0
 RST
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FF5411F
+P 4100 1200
+F 0 "#PWR?" H 4100 1050 50  0001 C CNN
+F 1 "+3V3" H 4115 1373 50  0000 C CNN
+F 2 "" H 4100 1200 50  0001 C CNN
+F 3 "" H 4100 1200 50  0001 C CNN
+	1    4100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FF546A9
+P 3050 1150
+F 0 "#PWR?" H 3050 1000 50  0001 C CNN
+F 1 "+3V3" H 3065 1323 50  0000 C CNN
+F 2 "" H 3050 1150 50  0001 C CNN
+F 3 "" H 3050 1150 50  0001 C CNN
+	1    3050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FF54A00
+P 7650 900
+F 0 "#PWR?" H 7650 750 50  0001 C CNN
+F 1 "+3V3" H 7665 1073 50  0000 C CNN
+F 2 "" H 7650 900 50  0001 C CNN
+F 3 "" H 7650 900 50  0001 C CNN
+	1    7650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FF54EB4
+P 7100 2200
+F 0 "#PWR?" H 7100 2050 50  0001 C CNN
+F 1 "+3V3" H 7115 2373 50  0000 C CNN
+F 2 "" H 7100 2200 50  0001 C CNN
+F 3 "" H 7100 2200 50  0001 C CNN
+	1    7100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FF552E6
+P 10050 2200
+F 0 "#PWR?" H 10050 2050 50  0001 C CNN
+F 1 "+3V3" V 10065 2328 50  0000 L CNN
+F 2 "" H 10050 2200 50  0001 C CNN
+F 3 "" H 10050 2200 50  0001 C CNN
+	1    10050 2200
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
