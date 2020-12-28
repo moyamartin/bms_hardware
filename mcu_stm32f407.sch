@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -488,8 +488,8 @@ F 3 "" H 3150 1800 50  0001 C CNN
 	1    3150 1800
 	0    1    1    0   
 $EndComp
-Text Notes 600  950  0    50   ~ 0
-BOOT pins configuration\nBOOT 0    BOOT 1     MODE\n0                  X                   Main flash memory boot <- Selected\n1                  0                   System Memory boot (boot loader)\n1                  1                   RAM memory
+Text Notes 550  900  0    50   ~ 0
+BOOT pins configuration\nBOOT 0    BOOT 1     MODE\n0          X           Main flash memory boot <- Selected\n1          0           System Memory boot (boot loader)\n1          1           RAM memory
 Text Notes 10350 2050 0    50   ~ 0
 SWD
 Text GLabel 4950 3600 2    50   Input ~ 0
@@ -539,7 +539,7 @@ U 1 1 5FF02221
 P 10550 2400
 F 0 "J1" H 10700 2100 50  0000 R CNN
 F 1 "Conn_01x05_Male" H 10950 2000 50  0000 R CNN
-F 2 "" H 10550 2400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10550 2400 50  0001 C CNN
 F 3 "~" H 10550 2400 50  0001 C CNN
 	1    10550 2400
 	-1   0    0    -1  
@@ -652,4 +652,8 @@ F 3 "" H 10050 2200 50  0001 C CNN
 	1    10050 2200
 	0    -1   -1   0   
 $EndComp
+Text HLabel 4950 4000 2    50   BiDi ~ 0
+SDA
+Text HLabel 4950 3900 2    50   Output ~ 0
+SCL
 $EndSCHEMATC
