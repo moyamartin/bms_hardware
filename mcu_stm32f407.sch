@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -656,4 +656,12 @@ Text HLabel 4950 4000 2    50   BiDi ~ 0
 SDA
 Text HLabel 4950 3900 2    50   Output ~ 0
 SCL
+Text HLabel 4950 2100 2    50   Output ~ 0
+SCK
+Text HLabel 4950 2200 2    50   Input ~ 0
+MISO
+Text HLabel 4950 2300 2    50   Input ~ 0
+MOSI
+Text HLabel 4950 2000 2    50   Output ~ 0
+CS
 $EndSCHEMATC
