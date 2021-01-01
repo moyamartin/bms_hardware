@@ -14,14 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4700 2650 1600 1050
-U 5FE4EB49
-F0 "mcu_stm32f407" 50
-F1 "mcu_stm32f407.sch" 50
-F2 "SDA" B R 6300 2700 50 
-F3 "SCL" O R 6300 2800 50 
-$EndSheet
-$Sheet
 S 7150 3250 750  900 
 U 5FE7678E
 F0 "equalizer_bq76" 50
@@ -59,4 +51,24 @@ Wire Wire Line
 	8200 2800 8100 2800
 Wire Wire Line
 	6300 2800 6900 2800
+Wire Wire Line
+	6300 3450 7150 3450
+Wire Wire Line
+	6300 3350 7150 3350
+Wire Wire Line
+	6300 3550 7150 3550
+Wire Wire Line
+	6300 3650 7150 3650
+$Sheet
+S 4700 2650 1600 1500
+U 5FE4EB49
+F0 "mcu_stm32f407" 50
+F1 "mcu_stm32f407.sch" 50
+F2 "SDA" B R 6300 2700 50 
+F3 "SCL" O R 6300 2800 50 
+F4 "SCK" O R 6300 3350 50 
+F5 "MISO" I R 6300 3550 50 
+F6 "MOSI" I R 6300 3450 50 
+F7 "CS" O R 6300 3650 50 
+$EndSheet
 $EndSCHEMATC
