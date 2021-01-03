@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -190,7 +190,7 @@ SDA
 Text HLabel 7100 4000 2    50   Input ~ 0
 SCL
 Text HLabel 7100 4200 2    50   Output ~ 0
-ALERT
+ALERT_INA226
 $Comp
 L Device:R R35
 U 1 1 5FE9DD8B
