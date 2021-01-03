@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -477,19 +477,19 @@ CS
 Wire Wire Line
 	3150 2150 1800 2150
 Text HLabel 1800 2250 0    50   Output ~ 0
-FAULT
+FAULT_BQ76
 Wire Wire Line
 	1800 2250 3150 2250
 Text HLabel 1800 2350 0    50   Output ~ 0
-ALERT
+ALERT_BQ76
 Wire Wire Line
 	1800 2350 3150 2350
 Text HLabel 1800 2450 0    50   Output ~ 0
-DRDY
+DRDY_BQ76
 Wire Wire Line
 	3150 2450 1800 2450
 Text HLabel 1800 2550 0    50   Output ~ 0
-CONV
+CONV_BQ76
 Wire Wire Line
 	2550 2550 1800 2550
 Connection ~ 2550 2550
