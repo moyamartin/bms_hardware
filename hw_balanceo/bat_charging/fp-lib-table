@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name KIPRJMOD)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
-  (lib (name BOURNS_SRP6030VA)(type KiCad)(uri ${KIPRJMOD}/lib/BOURNS_SRP6030VA.pretty)(options "")(descr ""))
-  (lib (name FDD86580-F085)(type KiCad)(uri ${KIPRJMOD}/lib/FDD86580-F085.pretty)(options "")(descr ""))
-  (lib (name Keystone_5016)(type KiCad)(uri ${KIPRJMOD}/lib/Keystone_5016.pretty)(options "")(descr ""))
-)
