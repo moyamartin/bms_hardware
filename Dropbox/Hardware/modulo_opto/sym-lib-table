@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name modulo_opto-rescue)(type Legacy)(uri ${KIPRJMOD}/modulo_opto-rescue.lib)(options "")(descr ""))
-)
