@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -551,9 +551,11 @@ Wire Wire Line
 	4950 4150 4950 4250
 Connection ~ 4950 4250
 $Comp
-L Battery_Management:BQ76PL536A U2
+L bms_hardware-rescue:BQ76PL536A-Battery_Management U2
 U 1 1 5FE7709D
 P 4050 3750
+AR Path="/5FE7709D" Ref="U2"  Part="1" 
+AR Path="/5FE7678E/5FE7709D" Ref="U2"  Part="1" 
 F 0 "U2" H 4050 6038 60  0000 C CNN
 F 1 "BQ76PL536A" H 4050 5932 60  0000 C CNN
 F 2 "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm" H 4050 3690 60  0001 C CNN

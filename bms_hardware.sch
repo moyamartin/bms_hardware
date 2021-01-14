@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -71,4 +71,17 @@ Wire Wire Line
 	6400 4000 7000 4000
 Wire Wire Line
 	6400 4100 7000 4100
+$Sheet
+S 7000 4850 1200 700 
+U 60006E35
+F0 "bat_charger" 50
+F1 "bat_charger.sch" 50
+F2 "V_BAT" O R 8200 4950 50 
+F3 "GND_BAT" O R 8200 5450 50 
+F4 "STAT1" O L 7000 5050 50 
+F5 "STAT2" O L 7000 5150 50 
+F6 "PG" O L 7000 4950 50 
+F7 "uCE" I L 7000 5300 50 
+F8 "GNDA" O L 7000 5450 50 
+$EndSheet
 $EndSCHEMATC
