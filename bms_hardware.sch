@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -83,5 +83,11 @@ F5 "STAT2" O L 7000 5150 50
 F6 "PG" O L 7000 4950 50 
 F7 "uCE" I L 7000 5300 50 
 F8 "GNDA" O L 7000 5450 50 
+$EndSheet
+$Sheet
+S 3350 1350 1400 750 
+U 60035E14
+F0 "vbat_3v3" 50
+F1 "vbat_3v3.sch" 50
 $EndSheet
 $EndSCHEMATC
