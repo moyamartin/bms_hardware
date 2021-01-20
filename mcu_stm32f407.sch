@@ -529,8 +529,6 @@ Wire Wire Line
 	7600 2200 8000 2200
 Wire Wire Line
 	8600 2200 8300 2200
-Text GLabel 4950 2900 2    50   Input ~ 0
-PA13
 Text GLabel 4950 3000 2    50   Input ~ 0
 PA14
 $Comp
@@ -664,4 +662,8 @@ Text HLabel 4950 2300 2    50   Input ~ 0
 MOSI
 Text HLabel 4950 2000 2    50   Output ~ 0
 CS
+Text HLabel 4950 2800 2    50   Output ~ 0
+CAN1_TX
+Text HLabel 4950 2700 2    50   Input ~ 0
+CAN1_RX
 $EndSCHEMATC
