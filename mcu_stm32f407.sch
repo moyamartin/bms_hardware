@@ -106,8 +106,6 @@ F 3 "~" H 2300 2250 50  0001 C CNN
 	1    2300 2250
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 2200 0    50   Input ~ 0
-VREF+
 Wire Wire Line
 	3850 1300 3850 1250
 Wire Wire Line
@@ -262,7 +260,7 @@ L Device:C C16
 U 1 1 5FE8634C
 P 10450 1150
 F 0 "C16" H 10650 1150 50  0000 C CNN
-F 1 "1uF" H 10650 1050 50  0000 C CNN
+F 1 "10uF" H 10650 1050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10488 1000 50  0001 C CNN
 F 3 "~" H 10450 1150 50  0001 C CNN
 	1    10450 1150
@@ -312,8 +310,6 @@ Wire Wire Line
 Connection ~ 10450 1000
 Text GLabel 4450 1300 1    50   Input ~ 0
 VDDA
-Text GLabel 8100 2350 2    50   Input ~ 0
-VDDA
 $Comp
 L Device:C C5
 U 1 1 5FEB5513
@@ -337,51 +333,14 @@ F 3 "~" H 8000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 2200 7200 2200
+	7100 2350 7200 2350
 Wire Wire Line
 	7600 2350 8000 2350
 Wire Wire Line
 	7600 2650 8000 2650
 Wire Wire Line
-	7600 2650 7600 2700
-Connection ~ 7600 2650
-Wire Wire Line
 	8000 2350 8100 2350
 Connection ~ 8000 2350
-Text GLabel 9100 2350 2    50   Input ~ 0
-VREF+
-$Comp
-L Device:C C10
-U 1 1 5FEC05C9
-P 8600 2500
-F 0 "C10" H 8800 2500 50  0000 C CNN
-F 1 "1uF" H 8800 2400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8638 2350 50  0001 C CNN
-F 3 "~" H 8600 2500 50  0001 C CNN
-	1    8600 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C12
-U 1 1 5FEC05CF
-P 9000 2500
-F 0 "C12" H 9200 2500 50  0000 C CNN
-F 1 "100nF" H 9200 2400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9038 2350 50  0001 C CNN
-F 3 "~" H 9000 2500 50  0001 C CNN
-	1    9000 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 2350 9000 2350
-Wire Wire Line
-	8600 2650 9000 2650
-Wire Wire Line
-	8600 2650 8600 2700
-Connection ~ 8600 2650
-Wire Wire Line
-	9000 2350 9100 2350
-Connection ~ 9000 2350
 Text Notes 550  900  0    50   ~ 0
 BOOT pins configuration\nBOOT 0    BOOT 1     MODE\n0          X           Main flash memory boot <- Selected\n1          0           System Memory boot (boot loader)\n1          1           RAM memory
 Text Notes 10350 2050 0    50   ~ 0
@@ -391,38 +350,14 @@ PB3
 $Comp
 L Device:L L1
 U 1 1 5FEED219
-P 7350 2200
-F 0 "L1" V 7540 2200 50  0000 C CNN
-F 1 "L" V 7449 2200 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" H 7350 2200 50  0001 C CNN
-F 3 "~" H 7350 2200 50  0001 C CNN
-	1    7350 2200
+P 7350 2350
+F 0 "L1" V 7540 2350 50  0000 C CNN
+F 1 "fcd0805" V 7449 2350 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" H 7350 2350 50  0001 C CNN
+F 3 "https://ar.mouser.com/ProductDetail/Fair-Rite/2508052217Y3/?qs=sGAEpiMZZMukHu%252BjC5l7YT5uox2dNmEjrHrhpdkzVxY%3D" H 7350 2350 50  0001 C CNN
+	1    7350 2350
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R3
-U 1 1 5FEEDA9B
-P 8150 2200
-F 0 "R3" V 7943 2200 50  0000 C CNN
-F 1 "47" V 8034 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8080 2200 50  0001 C CNN
-F 3 "~" H 8150 2200 50  0001 C CNN
-	1    8150 2200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7500 2200 7600 2200
-Wire Wire Line
-	8600 2200 8600 2350
-Connection ~ 8600 2350
-Wire Wire Line
-	7600 2200 7600 2350
-Connection ~ 7600 2200
-Connection ~ 7600 2350
-Wire Wire Line
-	7600 2200 8000 2200
-Wire Wire Line
-	8600 2200 8300 2200
 Text GLabel 4950 2900 2    50   Input ~ 0
 PA13
 Text GLabel 4950 3000 2    50   Input ~ 0
@@ -503,9 +438,7 @@ Wire Wire Line
 	4100 1250 4150 1250
 Text HLabel 4050 6950 3    50   Input ~ 0
 GND_BATT
-Text HLabel 7600 2700 3    50   Input ~ 0
-GND_BATT
-Text HLabel 8600 2700 3    50   Input ~ 0
+Text HLabel 8250 2750 3    50   Input ~ 0
 GND_BATT
 Text HLabel 10050 2600 0    50   Input ~ 0
 GND_BATT
@@ -513,7 +446,7 @@ Text HLabel 10050 2200 0    50   Input ~ 0
 3V3
 Text HLabel 7650 900  1    50   Input ~ 0
 3V3
-Text HLabel 7100 2200 0    50   Input ~ 0
+Text HLabel 7100 2350 0    50   Input ~ 0
 3V3
 Text HLabel 3050 1150 1    50   Input ~ 0
 3V3
@@ -541,4 +474,95 @@ Text HLabel 4950 2700 2    50   Input ~ 0
 CAN_1RX
 Text HLabel 4950 2800 2    50   Output ~ 0
 CAN_1TX
+Text HLabel 4950 3500 2    50   Input ~ 0
+GND_BATT
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6020B6D3
+P 5850 1300
+F 0 "SW?" V 5896 1252 50  0000 R CNN
+F 1 "SW_Push" V 5805 1252 50  0000 R CNN
+F 2 "" H 5850 1500 50  0001 C CNN
+F 3 "~" H 5850 1500 50  0001 C CNN
+	1    5850 1300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5850 1000 1    50   Input ~ 0
+NRST
+Wire Wire Line
+	5850 1000 5850 1100
+Text HLabel 5850 1600 3    50   Input ~ 0
+GND_BATT
+Wire Wire Line
+	5850 1500 5850 1600
+Text Notes 7600 3550 0    50   ~ 0
+The VDD pins must be connected to VDD with external decoupling\ncapacitors: one single Tantalum or Ceramic capacitor (min. 4.7 μF typ.\n10 μF) for the package + one 100 nF Ceramic capacitor for each VDD\npin.
+Text Notes 7600 3800 0    50   ~ 0
+The VBAT pin can be connected to the external battery (1.65 V < VBAT <\n3.6 V). If no external battery is used, it is recommended to connect this\npin to VDD with a 100 nF external ceramic decoupling capacitor.
+Text Notes 7600 4000 0    50   ~ 0
+The VDDA pin must be connected to two external decoupling\ncapacitors (100 nF Ceramic + 1 μF Tantalum or Ceramic).
+Text GLabel 2900 2200 0    50   Input ~ 0
+VREF+
+$Comp
+L Device:R R?
+U 1 1 6023C24E
+P 8250 2350
+F 0 "R?" V 8450 2300 50  0000 L CNN
+F 1 "47" V 8350 2300 50  0000 L CNN
+F 2 "" V 8180 2350 50  0001 C CNN
+F 3 "~" H 8250 2350 50  0001 C CNN
+	1    8250 2350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8000 2200 1    50   Input ~ 0
+VDDA
+Wire Wire Line
+	8000 2200 8000 2350
+Text GLabel 8500 2200 1    50   Input ~ 0
+VREF+
+Wire Wire Line
+	8500 2350 8400 2350
+$Comp
+L Device:C C?
+U 1 1 60267A98
+P 8500 2500
+F 0 "C?" H 8700 2500 50  0000 C CNN
+F 1 "1uF" H 8700 2400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8538 2350 50  0001 C CNN
+F 3 "~" H 8500 2500 50  0001 C CNN
+	1    8500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2350 8900 2350
+Connection ~ 8500 2350
+Connection ~ 8000 2650
+Connection ~ 8500 2650
+Wire Wire Line
+	8500 2650 8900 2650
+Wire Wire Line
+	8000 2650 8250 2650
+Wire Wire Line
+	8250 2650 8250 2750
+Connection ~ 8250 2650
+Wire Wire Line
+	8250 2650 8500 2650
+Wire Wire Line
+	7500 2350 7600 2350
+Connection ~ 7600 2350
+$Comp
+L Device:C C?
+U 1 1 60267A9E
+P 8900 2500
+F 0 "C?" H 9100 2500 50  0000 C CNN
+F 1 "100nF" H 9100 2400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8938 2350 50  0001 C CNN
+F 3 "~" H 8900 2500 50  0001 C CNN
+	1    8900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2200 8500 2350
+Text Notes 7600 4300 0    50   ~ 0
+Additional precautions can be taken to filter analog noise:\n–VDDA can be connected to VDD through a ferrite bead.\n–The VREF+ pin can be connected to VDDA through a 47ohm resistor
 $EndSCHEMATC
