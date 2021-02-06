@@ -513,7 +513,7 @@ Text HLabel 10050 2200 0    50   Input ~ 0
 3V3
 Text HLabel 7650 900  1    50   Input ~ 0
 3V3
-Text HLabel 7100 2200 1    50   Input ~ 0
+Text HLabel 7100 2200 0    50   Input ~ 0
 3V3
 Text HLabel 3050 1150 1    50   Input ~ 0
 3V3
@@ -537,4 +537,8 @@ Text HLabel 4950 5600 2    50   Input ~ 0
 BQ76_DRDY
 Text HLabel 4950 5700 2    50   Output ~ 0
 BQ76_CONV
+Text HLabel 4950 2700 2    50   Input ~ 0
+CAN_1RX
+Text HLabel 4950 2800 2    50   Output ~ 0
+CAN_1TX
 $EndSCHEMATC
