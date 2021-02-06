@@ -488,7 +488,7 @@ Text HLabel 1800 2450 0    50   Output ~ 0
 DRDY_BQ76
 Wire Wire Line
 	3150 2450 1800 2450
-Text HLabel 1800 2550 0    50   Output ~ 0
+Text HLabel 1800 2550 0    50   Input ~ 0
 CONV_BQ76
 Wire Wire Line
 	2550 2550 1800 2550
