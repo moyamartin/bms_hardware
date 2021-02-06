@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -174,13 +174,13 @@ V_OUT
 Wire Wire Line
 	3150 2650 3150 2700
 Text HLabel 3150 3450 3    50   Input ~ 0
-GND
+GND_BATT
 Wire Wire Line
 	3150 3450 3150 3400
 Wire Wire Line
 	750  3050 750  3100
 Text HLabel 750  3500 3    50   Input ~ 0
-GND
+GND_BATT
 Wire Wire Line
 	750  3450 750  3500
 Text HLabel 750  2700 1    50   Input ~ 0
@@ -201,7 +201,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 1650 5600 1650
 Text HLabel 5600 1750 3    50   Input ~ 0
-GND
+GND_BATT
 Wire Wire Line
 	5600 1650 5600 1750
 Connection ~ 5600 1650
@@ -219,7 +219,7 @@ Wire Wire Line
 Text HLabel 2700 1250 0    50   Input ~ 0
 V_IN
 Text HLabel 3250 1650 3    50   Input ~ 0
-GND
+GND_BATT
 Wire Wire Line
 	3850 800  3850 850 
 Wire Wire Line
@@ -240,7 +240,7 @@ Connection ~ 7450 950
 Text HLabel 7950 950  2    50   Input ~ 0
 V_OUT
 Text HLabel 7450 1450 3    50   Input ~ 0
-GND
+GND_BATT
 Wire Wire Line
 	7450 1350 7450 1450
 Wire Wire Line
