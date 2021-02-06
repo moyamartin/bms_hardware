@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -61,39 +61,6 @@ Wire Wire Line
 	2350 3200 2250 3200
 Wire Wire Line
 	2350 2900 2250 2900
-$Comp
-L power:GND #PWR0101
-U 1 1 5FE55354
-P 1950 3200
-F 0 "#PWR0101" H 1950 2950 50  0001 C CNN
-F 1 "GND" V 1955 3072 50  0000 R CNN
-F 2 "" H 1950 3200 50  0001 C CNN
-F 3 "" H 1950 3200 50  0001 C CNN
-	1    1950 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5FE55D5E
-P 1950 2900
-F 0 "#PWR0102" H 1950 2650 50  0001 C CNN
-F 1 "GND" V 1955 2772 50  0000 R CNN
-F 2 "" H 1950 2900 50  0001 C CNN
-F 3 "" H 1950 2900 50  0001 C CNN
-	1    1950 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5FE58B7E
-P 4050 6950
-F 0 "#PWR0103" H 4050 6700 50  0001 C CNN
-F 1 "GND" H 4055 6777 50  0000 C CNN
-F 2 "" H 4050 6950 50  0001 C CNN
-F 3 "" H 4050 6950 50  0001 C CNN
-	1    4050 6950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 6800 3850 6850
 Wire Wire Line
@@ -139,28 +106,6 @@ F 3 "~" H 2300 2250 50  0001 C CNN
 	1    2300 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5FE60243
-P 2100 2300
-F 0 "#PWR0104" H 2100 2050 50  0001 C CNN
-F 1 "GND" H 2105 2127 50  0000 C CNN
-F 2 "" H 2100 2300 50  0001 C CNN
-F 3 "" H 2100 2300 50  0001 C CNN
-	1    2100 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5FE60676
-P 2300 2400
-F 0 "#PWR0105" H 2300 2150 50  0001 C CNN
-F 1 "GND" H 2305 2227 50  0000 C CNN
-F 2 "" H 2300 2400 50  0001 C CNN
-F 3 "" H 2300 2400 50  0001 C CNN
-	1    2300 2400
-	1    0    0    -1  
-$EndComp
 Text GLabel 2900 2200 0    50   Input ~ 0
 VREF+
 Wire Wire Line
@@ -178,8 +123,6 @@ Wire Wire Line
 	4050 1300 4050 1250
 Connection ~ 4050 1250
 Wire Wire Line
-	4050 1250 4100 1250
-Wire Wire Line
 	4150 1300 4150 1250
 Connection ~ 4150 1250
 Wire Wire Line
@@ -189,11 +132,6 @@ Wire Wire Line
 Connection ~ 4250 1250
 Wire Wire Line
 	4250 1250 4350 1250
-Wire Wire Line
-	4100 1200 4100 1250
-Connection ~ 4100 1250
-Wire Wire Line
-	4100 1250 4150 1250
 $Comp
 L Device:R R1
 U 1 1 5FE6766C
@@ -282,17 +220,6 @@ Wire Wire Line
 Connection ~ 8450 1000
 Wire Wire Line
 	8450 1000 8850 1000
-$Comp
-L power:GND #PWR0106
-U 1 1 5FE886F8
-P 7650 1400
-F 0 "#PWR0106" H 7650 1150 50  0001 C CNN
-F 1 "GND" H 7655 1227 50  0000 C CNN
-F 2 "" H 7650 1400 50  0001 C CNN
-F 3 "" H 7650 1400 50  0001 C CNN
-	1    7650 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 1300 7650 1400
 Wire Wire Line
@@ -413,17 +340,6 @@ Wire Wire Line
 	7100 2200 7200 2200
 Wire Wire Line
 	7600 2350 8000 2350
-$Comp
-L power:GND #PWR0107
-U 1 1 5FEBA6FA
-P 7600 2700
-F 0 "#PWR0107" H 7600 2450 50  0001 C CNN
-F 1 "GND" H 7605 2527 50  0000 C CNN
-F 2 "" H 7600 2700 50  0001 C CNN
-F 3 "" H 7600 2700 50  0001 C CNN
-	1    7600 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 2650 8000 2650
 Wire Wire Line
@@ -458,17 +374,6 @@ F 3 "~" H 9000 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8600 2350 9000 2350
-$Comp
-L power:GND #PWR0108
-U 1 1 5FEC05DE
-P 8600 2700
-F 0 "#PWR0108" H 8600 2450 50  0001 C CNN
-F 1 "GND" H 8605 2527 50  0000 C CNN
-F 2 "" H 8600 2700 50  0001 C CNN
-F 3 "" H 8600 2700 50  0001 C CNN
-	1    8600 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8600 2650 9000 2650
 Wire Wire Line
@@ -477,17 +382,6 @@ Connection ~ 8600 2650
 Wire Wire Line
 	9000 2350 9100 2350
 Connection ~ 9000 2350
-$Comp
-L power:GND #PWR0109
-U 1 1 5FEC5C85
-P 3150 1800
-F 0 "#PWR0109" H 3150 1550 50  0001 C CNN
-F 1 "GND" V 3155 1672 50  0000 R CNN
-F 2 "" H 3150 1800 50  0001 C CNN
-F 3 "" H 3150 1800 50  0001 C CNN
-	1    3150 1800
-	0    1    1    0   
-$EndComp
 Text Notes 550  900  0    50   ~ 0
 BOOT pins configuration\nBOOT 0    BOOT 1     MODE\n0          X           Main flash memory boot <- Selected\n1          0           System Memory boot (boot loader)\n1          1           RAM memory
 Text Notes 10350 2050 0    50   ~ 0
@@ -529,6 +423,8 @@ Wire Wire Line
 	7600 2200 8000 2200
 Wire Wire Line
 	8600 2200 8300 2200
+Text GLabel 4950 2900 2    50   Input ~ 0
+PA13
 Text GLabel 4950 3000 2    50   Input ~ 0
 PA14
 $Comp
@@ -556,17 +452,6 @@ Text GLabel 10200 2500 0    50   Input ~ 0
 NRST
 Wire Wire Line
 	10200 2500 10350 2500
-$Comp
-L power:GND #PWR0110
-U 1 1 5FF09E8C
-P 10050 2600
-F 0 "#PWR0110" H 10050 2350 50  0001 C CNN
-F 1 "GND" V 10055 2472 50  0000 R CNN
-F 2 "" H 10050 2600 50  0001 C CNN
-F 3 "" H 10050 2600 50  0001 C CNN
-	1    10050 2600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10050 2600 10350 2600
 $Comp
@@ -595,61 +480,6 @@ Text Notes 10550 2400 0    50   ~ 0
 SWDIO
 Text Notes 10550 2500 0    50   ~ 0
 RST
-$Comp
-L power:+3V3 #PWR0111
-U 1 1 5FF5411F
-P 4100 1200
-F 0 "#PWR0111" H 4100 1050 50  0001 C CNN
-F 1 "+3V3" H 4115 1373 50  0000 C CNN
-F 2 "" H 4100 1200 50  0001 C CNN
-F 3 "" H 4100 1200 50  0001 C CNN
-	1    4100 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0112
-U 1 1 5FF546A9
-P 3050 1150
-F 0 "#PWR0112" H 3050 1000 50  0001 C CNN
-F 1 "+3V3" H 3065 1323 50  0000 C CNN
-F 2 "" H 3050 1150 50  0001 C CNN
-F 3 "" H 3050 1150 50  0001 C CNN
-	1    3050 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0113
-U 1 1 5FF54A00
-P 7650 900
-F 0 "#PWR0113" H 7650 750 50  0001 C CNN
-F 1 "+3V3" H 7665 1073 50  0000 C CNN
-F 2 "" H 7650 900 50  0001 C CNN
-F 3 "" H 7650 900 50  0001 C CNN
-	1    7650 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0114
-U 1 1 5FF54EB4
-P 7100 2200
-F 0 "#PWR0114" H 7100 2050 50  0001 C CNN
-F 1 "+3V3" H 7115 2373 50  0000 C CNN
-F 2 "" H 7100 2200 50  0001 C CNN
-F 3 "" H 7100 2200 50  0001 C CNN
-	1    7100 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0115
-U 1 1 5FF552E6
-P 10050 2200
-F 0 "#PWR0115" H 10050 2050 50  0001 C CNN
-F 1 "+3V3" V 10065 2328 50  0000 L CNN
-F 2 "" H 10050 2200 50  0001 C CNN
-F 3 "" H 10050 2200 50  0001 C CNN
-	1    10050 2200
-	0    -1   -1   0   
-$EndComp
 Text HLabel 4950 4000 2    50   BiDi ~ 0
 SDA
 Text HLabel 4950 3900 2    50   Output ~ 0
@@ -662,8 +492,49 @@ Text HLabel 4950 2300 2    50   Input ~ 0
 MOSI
 Text HLabel 4950 2000 2    50   Output ~ 0
 CS
-Text HLabel 4950 2800 2    50   Output ~ 0
-CAN1_TX
-Text HLabel 4950 2700 2    50   Input ~ 0
-CAN1_RX
+Text HLabel 4100 1200 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	4050 1250 4100 1250
+Wire Wire Line
+	4100 1200 4100 1250
+Connection ~ 4100 1250
+Wire Wire Line
+	4100 1250 4150 1250
+Text HLabel 4050 6950 3    50   Input ~ 0
+GND_BATT
+Text HLabel 7600 2700 3    50   Input ~ 0
+GND_BATT
+Text HLabel 8600 2700 3    50   Input ~ 0
+GND_BATT
+Text HLabel 10050 2600 0    50   Input ~ 0
+GND_BATT
+Text HLabel 10050 2200 0    50   Input ~ 0
+3V3
+Text HLabel 7650 900  1    50   Input ~ 0
+3V3
+Text HLabel 7100 2200 1    50   Input ~ 0
+3V3
+Text HLabel 3050 1150 1    50   Input ~ 0
+3V3
+Text HLabel 3150 1800 0    50   Input ~ 0
+GND_BATT
+Text HLabel 1950 2900 0    50   Input ~ 0
+GND_BATT
+Text HLabel 1950 3200 0    50   Input ~ 0
+GND_BATT
+Text HLabel 2100 2300 3    50   Input ~ 0
+GND_BATT
+Text HLabel 2300 2400 3    50   Input ~ 0
+GND_BATT
+Text HLabel 7650 1400 3    50   Input ~ 0
+GND_BATT
+Text HLabel 4950 5400 2    50   Input ~ 0
+BQ76_FAULT
+Text HLabel 4950 5500 2    50   Input ~ 0
+BQ76_ALERT
+Text HLabel 4950 5600 2    50   Input ~ 0
+BQ76_DRDY
+Text HLabel 4950 5700 2    50   Output ~ 0
+BQ76_CONV
 $EndSCHEMATC
