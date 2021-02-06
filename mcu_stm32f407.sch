@@ -529,4 +529,12 @@ Text HLabel 2300 2400 3    50   Input ~ 0
 GND_BATT
 Text HLabel 7650 1400 3    50   Input ~ 0
 GND_BATT
+Text HLabel 4950 5400 2    50   Input ~ 0
+BQ76_FAULT
+Text HLabel 4950 5500 2    50   Input ~ 0
+BQ76_ALERT
+Text HLabel 4950 5600 2    50   Input ~ 0
+BQ76_DRDY
+Text HLabel 4950 5700 2    50   Output ~ 0
+BQ76_CONV
 $EndSCHEMATC
