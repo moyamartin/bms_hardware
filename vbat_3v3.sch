@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Switching:TPS54331D U?
+L Regulator_Switching:TPS54331D U4
 U 1 1 60036491
 P 4700 1250
-F 0 "U?" H 4700 1920 50  0000 C CNN
+F 0 "U4" H 4700 1920 50  0000 C CNN
 F 1 "TPS54331D" H 4700 1829 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4700 1250 50  0001 L BNN
 F 3 "https://ar.mouser.com/ProductDetail/Texas-Instruments/TPS54331DR/?qs=QyYHynRG50rsSYcB%2Ftz4Yw%3D%3D" H 4700 1250 50  0001 L BNN
@@ -25,10 +25,10 @@ F 3 "https://ar.mouser.com/ProductDetail/Texas-Instruments/TPS54331DR/?qs=QyYHyn
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:B340 D?
+L Diode:B340 D19
 U 1 1 60048579
 P 1650 1350
-F 0 "D?" V 1696 1270 50  0000 R CNN
+F 0 "D19" V 1696 1270 50  0000 R CNN
 F 1 "B340" V 1605 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SMC" H 1650 1175 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 1650 1350 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 1650 1350 50  0
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C37
 U 1 1 6004918C
 P 2750 1400
-F 0 "C?" H 2865 1446 50  0000 L CNN
+F 0 "C37" H 2865 1446 50  0000 L CNN
 F 1 "330nF" H 2865 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2788 1250 50  0001 C CNN
 F 3 "~" H 2750 1400 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 2750 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C38
 U 1 1 60049307
 P 3250 1400
-F 0 "C?" H 3365 1446 50  0000 L CNN
+F 0 "C38" H 3365 1446 50  0000 L CNN
 F 1 "10uF" H 3365 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3288 1250 50  0001 C CNN
 F 3 "~" H 3250 1400 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 3250 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C42
 U 1 1 600495AA
 P 7450 1200
-F 0 "C?" H 7565 1246 50  0000 L CNN
+F 0 "C42" H 7565 1246 50  0000 L CNN
 F 1 "10uF" H 7565 1155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7488 1050 50  0001 C CNN
 F 3 "~" H 7450 1200 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "~" H 7450 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C40
 U 1 1 60049A2E
 P 5400 1000
-F 0 "C?" H 5515 1046 50  0000 L CNN
+F 0 "C40" H 5515 1046 50  0000 L CNN
 F 1 "2.2nF" H 5515 955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5438 850 50  0001 C CNN
 F 3 "~" H 5400 1000 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "~" H 5400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C41
 U 1 1 60049CF6
 P 5800 1300
-F 0 "C?" H 5915 1346 50  0000 L CNN
+F 0 "C41" H 5915 1346 50  0000 L CNN
 F 1 "1nF" H 5915 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5838 1150 50  0001 C CNN
 F 3 "~" H 5800 1300 50  0001 C CNN
@@ -91,10 +91,10 @@ F 3 "~" H 5800 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R60
 U 1 1 6004A339
 P 3150 2850
-F 0 "R5" H 3220 2896 50  0000 L CNN
+F 0 "R60" H 3220 2896 50  0000 L CNN
 F 1 "9K1" H 3220 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3080 2850 50  0001 C CNN
 F 3 "~" H 3150 2850 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "~" H 3150 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L Device:R R61
 U 1 1 6004A5D5
 P 3150 3250
-F 0 "R6" H 3220 3296 50  0000 L CNN
+F 0 "R61" H 3220 3296 50  0000 L CNN
 F 1 "1K8" H 3220 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3080 3250 50  0001 C CNN
 F 3 "~" H 3150 3250 50  0001 C CNN
@@ -113,10 +113,10 @@ F 3 "~" H 3150 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R59
 U 1 1 6004A934
 P 750 3300
-F 0 "R2" H 820 3346 50  0000 L CNN
+F 0 "R59" H 820 3346 50  0000 L CNN
 F 1 "27K" H 820 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 680 3300 50  0001 C CNN
 F 3 "~" H 750 3300 50  0001 C CNN
@@ -124,10 +124,10 @@ F 3 "~" H 750 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Device:R R58
 U 1 1 6004ABA6
 P 750 2900
-F 0 "R1" H 820 2946 50  0000 L CNN
+F 0 "R58" H 820 2946 50  0000 L CNN
 F 1 "330K" H 820 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 680 2900 50  0001 C CNN
 F 3 "~" H 750 2900 50  0001 C CNN
@@ -135,10 +135,10 @@ F 3 "~" H 750 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R62
 U 1 1 6004AED7
 P 5400 1500
-F 0 "R?" H 5470 1546 50  0000 L CNN
+F 0 "R62" H 5470 1546 50  0000 L CNN
 F 1 "5K1" H 5470 1455 50  0000 L CNN
 F 2 "" V 5330 1500 50  0001 C CNN
 F 3 "~" H 5400 1500 50  0001 C CNN
@@ -146,10 +146,10 @@ F 3 "~" H 5400 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L2
 U 1 1 60057BAE
 P 7200 950
-F 0 "L?" V 7019 950 50  0000 C CNN
+F 0 "L2" V 7019 950 50  0000 C CNN
 F 1 "6.8uH" V 7110 950 50  0000 C CNN
 F 2 "BOURNS_SRP6030VA:SRP6030VA-6R8M" H 7200 950 50  0001 C CNN
 F 3 "https://ar.mouser.com/ProductDetail/SRP6030VA-6R8M" H 7200 950 50  0001 C CNN
@@ -294,10 +294,10 @@ Connection ~ 2750 1550
 Text GLabel 1600 1100 0    50   Input ~ 0
 PH
 $Comp
-L Device:C C?
+L Device:C C39
 U 1 1 60049780
 P 3300 950
-F 0 "C?" H 3415 996 50  0000 L CNN
+F 0 "C39" H 3415 996 50  0000 L CNN
 F 1 "0.1uF" H 3415 905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3338 800 50  0001 C CNN
 F 3 "~" H 3300 950 50  0001 C CNN
@@ -305,10 +305,10 @@ F 3 "~" H 3300 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C36
 U 1 1 60056C6C
 P 2050 1350
-F 0 "C?" H 2165 1396 50  0000 L CNN
+F 0 "C36" H 2165 1396 50  0000 L CNN
 F 1 "3.3nF" H 2165 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2088 1200 50  0001 C CNN
 F 3 "~" H 2050 1350 50  0001 C CNN

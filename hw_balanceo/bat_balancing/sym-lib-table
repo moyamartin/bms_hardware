@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name bat_balancing-rescue)(type Legacy)(uri ${KIPRJMOD}/bat_balancing-rescue.lib)(options "")(descr ""))
-)
