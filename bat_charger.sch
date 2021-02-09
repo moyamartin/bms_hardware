@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -30,7 +30,7 @@ U 1 1 5FC8D9CF
 P 3150 3700
 F 0 "C25" H 3300 3600 50  0000 R CNN
 F 1 "0.1uF" H 3400 3800 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3188 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3188 3550 50  0001 C CNN
 F 3 "https://ar.mouser.com/ProductDetail/581-08055C104K/" H 3150 3700 50  0001 C CNN
 	1    3150 3700
 	-1   0    0    1   
@@ -196,7 +196,7 @@ U 1 1 601113D1
 P 7350 4500
 F 0 "C33" H 7300 4400 50  0000 R CNN
 F 1 "0.1uF" H 7300 4600 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7388 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7388 4350 50  0001 C CNN
 F 3 "https://ar.mouser.com/ProductDetail/581-08055C104K/" H 7350 4500 50  0001 C CNN
 	1    7350 4500
 	-1   0    0    1   
@@ -432,7 +432,7 @@ U 1 1 5FC9F116
 P 3150 4150
 F 0 "C26" H 3100 4250 50  0000 R CNN
 F 1 "0.1uF" H 3100 4050 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3188 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3188 4000 50  0001 C CNN
 F 3 "https://ar.mouser.com/ProductDetail/581-08055C104K/" H 3150 4150 50  0001 C CNN
 	1    3150 4150
 	1    0    0    -1  
@@ -736,7 +736,7 @@ U 1 1 5FF9FEF9
 P 7350 3550
 F 0 "C31" V 7602 3550 50  0000 C CNN
 F 1 "0.1uF" V 7511 3550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7388 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7388 3400 50  0001 C CNN
 F 3 "https://ar.mouser.com/ProductDetail/581-08055C104K/" H 7350 3550 50  0001 C CNN
 	1    7350 3550
 	0    -1   -1   0   
@@ -798,7 +798,7 @@ U 1 1 601113CB
 P 7350 4100
 F 0 "C32" H 7465 4146 50  0000 L CNN
 F 1 "0.1uF" H 7465 4055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7388 3950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7388 3950 50  0001 C CNN
 F 3 "https://ar.mouser.com/ProductDetail/581-08055C104K/" H 7350 4100 50  0001 C CNN
 	1    7350 4100
 	1    0    0    -1  
@@ -993,7 +993,7 @@ U 1 1 5FC7BF02
 P 3700 1500
 F 0 "C27" H 3815 1454 50  0000 L CNN
 F 1 "0.1uF" H 3815 1545 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3738 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3738 1350 50  0001 C CNN
 F 3 "https://ar.mouser.com/ProductDetail/581-08055C104K/" H 3700 1500 50  0001 C CNN
 	1    3700 1500
 	1    0    0    -1  
