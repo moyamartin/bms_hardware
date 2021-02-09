@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -238,4 +238,10 @@ Wire Wire Line
 Connection ~ 4550 3200
 Wire Wire Line
 	4550 3200 4800 3200
+$Sheet
+S 3350 1150 950  800 
+U 60233007
+F0 "bat_switch" 50
+F1 "bat_switch.sch" 50
+$EndSheet
 $EndSCHEMATC
