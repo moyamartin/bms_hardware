@@ -249,10 +249,10 @@ Connection ~ 2650 5000
 Wire Wire Line
 	2650 5000 3150 5000
 $Comp
-L power:GND #PWR016
+L power:GND #PWR018
 U 1 1 5FFB8D43
 P 4950 2350
-F 0 "#PWR016" H 4950 2100 50  0001 C CNN
+F 0 "#PWR018" H 4950 2100 50  0001 C CNN
 F 1 "GND" V 4955 2222 50  0000 R CNN
 F 2 "" H 4950 2350 50  0001 C CNN
 F 3 "" H 4950 2350 50  0001 C CNN
@@ -262,17 +262,6 @@ $EndComp
 NoConn ~ 4950 2550
 Text Notes 9200 650  0    50   ~ 0
 LDO Cap. Filters
-$Comp
-L power:GND #PWR017
-U 1 1 6001D855
-P 5100 4350
-F 0 "#PWR017" H 5100 4100 50  0001 C CNN
-F 1 "GND" V 5105 4222 50  0000 R CNN
-F 2 "" H 5100 4350 50  0001 C CNN
-F 3 "" H 5100 4350 50  0001 C CNN
-	1    5100 4350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4950 4550 4950 4350
 Wire Wire Line
@@ -599,10 +588,10 @@ F20 "GND" O R 6250 3100 50
 $EndSheet
 Connection ~ 6300 2650
 $Comp
-L Connector:Conn_01x07_Female J1
+L Connector:Conn_01x07_Female J2
 U 1 1 5FF8226F
 P 6550 3400
-F 0 "J1" V 6715 3380 50  0000 C CNN
+F 0 "J2" V 6715 3380 50  0000 C CNN
 F 1 "Conn_01x07_Female" V 6624 3380 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_S7B-XH-A_1x07_P2.50mm_Horizontal" H 6550 3400 50  0001 C CNN
 F 3 "~" H 6550 3400 50  0001 C CNN
@@ -670,4 +659,8 @@ Wire Wire Line
 Connection ~ 10200 1550
 Wire Wire Line
 	10200 1550 10400 1550
+Text HLabel 6500 2650 2    50   Output ~ 0
+GND_BAT
+Text HLabel 5100 4350 2    50   Output ~ 0
+GND_BAT
 $EndSCHEMATC

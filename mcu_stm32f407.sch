@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F4:STM32F407VGTx U5
+L MCU_ST_STM32F4:STM32F407VGTx U6
 U 1 1 5FE4F27B
 P 4050 4000
-F 0 "U5" H 4050 3900 50  0000 C CNN
+F 0 "U6" H 4050 3900 50  0000 C CNN
 F 1 "STM32F407VGTx" H 4050 4100 50  0000 C CNN
 F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 3350 1400 50  0001 R CNN
 F 3 "https://ar.mouser.com/ProductDetail/STMicroelectronics/STM32F407VGT6/?qs=Z8%252BeY1k3TIKAEQqwbO%2FOzA%3D%3D" H 4050 4000 50  0001 C CNN
@@ -131,10 +131,10 @@ Connection ~ 4250 1250
 Wire Wire Line
 	4250 1250 4350 1250
 $Comp
-L Device:R R63
+L Device:R R66
 U 1 1 5FE6766C
 P 2850 3200
-F 0 "R63" V 2643 3200 50  0000 C CNN
+F 0 "R66" V 2643 3200 50  0000 C CNN
 F 1 "220" V 2734 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2780 3200 50  0001 C CNN
 F 3 "~" H 2850 3200 50  0001 C CNN
@@ -363,10 +363,10 @@ PA13
 Text GLabel 4950 3000 2    50   Input ~ 0
 PA14
 $Comp
-L Connector:Conn_01x05_Male J4
+L Connector:Conn_01x05_Male J5
 U 1 1 5FF02221
 P 10550 2400
-F 0 "J4" H 10700 2100 50  0000 R CNN
+F 0 "J5" H 10700 2100 50  0000 R CNN
 F 1 "Conn_01x05_Male" H 10950 2000 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10550 2400 50  0001 C CNN
 F 3 "~" H 10550 2400 50  0001 C CNN
@@ -390,10 +390,10 @@ Wire Wire Line
 Wire Wire Line
 	10050 2600 10350 2600
 $Comp
-L Device:R R64
+L Device:R R67
 U 1 1 5FF0D03B
 P 3050 1350
-F 0 "R64" H 3120 1396 50  0000 L CNN
+F 0 "R67" H 3120 1396 50  0000 L CNN
 F 1 "10K" H 3120 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2980 1350 50  0001 C CNN
 F 3 "~" H 3050 1350 50  0001 C CNN
@@ -482,7 +482,7 @@ U 1 1 6020B6D3
 P 5850 1300
 F 0 "SW3" V 5896 1252 50  0000 R CNN
 F 1 "SW_Push" V 5805 1252 50  0000 R CNN
-F 2 "" H 5850 1500 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 5850 1500 50  0001 C CNN
 F 3 "~" H 5850 1500 50  0001 C CNN
 	1    5850 1300
 	0    -1   -1   0   
@@ -504,12 +504,12 @@ The VDDA pin must be connected to two external decoupling\ncapacitors (100 nF Ce
 Text GLabel 2900 2200 0    50   Input ~ 0
 VREF+
 $Comp
-L Device:R R65
+L Device:R R68
 U 1 1 6023C24E
 P 8250 2350
-F 0 "R65" V 8450 2300 50  0000 L CNN
+F 0 "R68" V 8450 2300 50  0000 L CNN
 F 1 "47" V 8350 2300 50  0000 L CNN
-F 2 "" V 8180 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8180 2350 50  0001 C CNN
 F 3 "~" H 8250 2350 50  0001 C CNN
 	1    8250 2350
 	0    -1   -1   0   
@@ -565,4 +565,6 @@ Wire Wire Line
 	8500 2200 8500 2350
 Text Notes 7600 4300 0    50   ~ 0
 Additional precautions can be taken to filter analog noise:\n–VDDA can be connected to VDD through a ferrite bead.\n–The VREF+ pin can be connected to VDDA through a 47ohm resistor
+Text HLabel 4950 3800 2    50   Input ~ 0
+SWT_GPIO
 $EndSCHEMATC
