@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_FET:IRF9310PbF Q?
+L Transistor_FET:IRF9310PbF Q13
 U 1 1 6023360E
 P 6050 2700
-F 0 "Q?" H 6050 3075 50  0000 C CNN
+F 0 "Q13" H 6050 3075 50  0000 C CNN
 F 1 "IRF9310PbF" H 6050 2984 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6050 2700 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/196/irf9310pbf-1732564.pdf" H 6050 2700 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "https://ar.mouser.com/datasheet/2/196/irf9310pbf-1732564.pdf" H 6050 2700 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC848 Q?
+L Transistor_BJT:BC848 Q11
 U 1 1 60234053
 P 5000 4100
-F 0 "Q?" H 5191 4146 50  0000 L CNN
+F 0 "Q11" H 5191 4146 50  0000 L CNN
 F 1 "BC848" H 5191 4055 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 4025 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 5000 4100 50  0001 L CNN
@@ -36,10 +36,10 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC848 Q?
+L Transistor_BJT:BC848 Q12
 U 1 1 60234344
 P 5500 3300
-F 0 "Q?" H 5691 3346 50  0000 L CNN
+F 0 "Q12" H 5691 3346 50  0000 L CNN
 F 1 "BC848" H 5691 3255 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 3225 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 5500 3300 50  0001 L CNN
@@ -47,10 +47,10 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R63
 U 1 1 602349BB
 P 4650 4100
-F 0 "R?" V 4443 4100 50  0000 C CNN
+F 0 "R63" V 4443 4100 50  0000 C CNN
 F 1 "3.3K" V 4534 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4580 4100 50  0001 C CNN
 F 3 "~" H 4650 4100 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 4650 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R65
 U 1 1 60234C8A
 P 5100 3750
-F 0 "R?" H 5170 3796 50  0000 L CNN
+F 0 "R65" H 5170 3796 50  0000 L CNN
 F 1 "22K" H 5170 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5030 3750 50  0001 C CNN
 F 3 "~" H 5100 3750 50  0001 C CNN
@@ -70,13 +70,13 @@ F 3 "~" H 5100 3750 50  0001 C CNN
 $EndComp
 Text HLabel 4500 4100 0    50   Input ~ 0
 G
-Text HLabel 5100 4300 3    50   Input ~ 0
+Text HLabel 5800 4600 3    50   Input ~ 0
 GND
 $Comp
-L Device:R R?
+L Device:R R64
 U 1 1 6023A454
 P 5100 3350
-F 0 "R?" H 5170 3396 50  0000 L CNN
+F 0 "R64" H 5170 3396 50  0000 L CNN
 F 1 "33K" H 5170 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5030 3350 50  0001 C CNN
 F 3 "~" H 5100 3350 50  0001 C CNN
@@ -95,12 +95,12 @@ Connection ~ 5100 3550
 Wire Wire Line
 	5100 3550 5100 3600
 $Comp
-L Device:D D?
+L Device:D D20
 U 1 1 6023F6A8
 P 5750 3400
-F 0 "D?" V 5796 3320 50  0000 R CNN
+F 0 "D20" V 5796 3320 50  0000 R CNN
 F 1 "D" V 5705 3320 50  0000 R CNN
-F 2 "" H 5750 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 5750 3400 50  0001 C CNN
 F 3 "~" H 5750 3400 50  0001 C CNN
 	1    5750 3400
 	0    -1   -1   0   
@@ -144,4 +144,30 @@ Wire Wire Line
 Wire Wire Line
 	6350 2550 6550 2550
 Connection ~ 6350 2550
+$Comp
+L 2021-02-09_22-26-07:FERD2045SB-TR U5
+U 1 1 6024EE1E
+P 6250 4500
+F 0 "U5" V 7250 3650 60  0000 L CNN
+F 1 "FERD2045SB-TR" V 7350 3300 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2_TabPin1" H 7050 4740 60  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/389/ferd2045s-1849465.pdf" V 7156 4728 60  0001 L CNN
+	1    6250 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 2900 6350 2850
+Connection ~ 6350 2850
+Wire Wire Line
+	6550 4500 6150 4500
+Wire Wire Line
+	5100 4500 5100 4300
+Connection ~ 6150 4500
+Wire Wire Line
+	6150 4500 5800 4500
+Wire Wire Line
+	5800 4500 5800 4600
+Connection ~ 5800 4500
+Wire Wire Line
+	5800 4500 5100 4500
 $EndSCHEMATC
