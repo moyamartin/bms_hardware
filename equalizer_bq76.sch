@@ -279,68 +279,10 @@ Wire Wire Line
 	10400 1050 10400 1250
 Text GLabel 9500 1050 1    50   Input ~ 0
 LDOA
-$Comp
-L Device:R R5
-U 1 1 6003EECE
-P 1950 2750
-F 0 "R5" H 2020 2796 50  0000 L CNN
-F 1 "10K" H 2020 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 2750 50  0001 C CNN
-F 3 "~" H 1950 2750 50  0001 C CNN
-	1    1950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 6003F38A
-P 2250 2750
-F 0 "R6" H 2320 2796 50  0000 L CNN
-F 1 "10K" H 2320 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2180 2750 50  0001 C CNN
-F 3 "~" H 2250 2750 50  0001 C CNN
-	1    2250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 6003F59D
-P 2550 2750
-F 0 "R7" H 2620 2796 50  0000 L CNN
-F 1 "10K" H 2620 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2480 2750 50  0001 C CNN
-F 3 "~" H 2550 2750 50  0001 C CNN
-	1    2550 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 2600 2550 2550
-Wire Wire Line
-	2550 2550 3150 2550
-Wire Wire Line
-	3150 1950 2250 1950
-Wire Wire Line
-	2250 1950 2250 2600
-Wire Wire Line
-	3150 1850 1950 1850
-Wire Wire Line
-	1950 1850 1950 2600
-Wire Wire Line
-	1950 2900 2250 2900
-Connection ~ 2250 2900
-Wire Wire Line
-	2250 2900 2550 2900
-Wire Wire Line
-	2250 2900 2250 2950
 Text HLabel 1800 1850 0    50   Input ~ 0
 SCLK
-Wire Wire Line
-	1950 1850 1800 1850
-Connection ~ 1950 1850
 Text HLabel 1800 1950 0    50   Input ~ 0
 SDI
-Wire Wire Line
-	1800 1950 2250 1950
-Connection ~ 2250 1950
 Text HLabel 1800 2050 0    50   Output ~ 0
 SDO
 Wire Wire Line
@@ -363,9 +305,6 @@ Wire Wire Line
 	3150 2450 1800 2450
 Text HLabel 1800 2550 0    50   Input ~ 0
 CONV_BQ76
-Wire Wire Line
-	2550 2550 1800 2550
-Connection ~ 2550 2550
 $Comp
 L Device:R R10
 U 1 1 5FE93DA5
@@ -587,17 +526,6 @@ F19 "CELL_1+" I R 6250 3200 50
 F20 "GND" O R 6250 3100 50 
 $EndSheet
 Connection ~ 6300 2650
-$Comp
-L Connector:Conn_01x07_Female J2
-U 1 1 5FF8226F
-P 6550 3400
-F 0 "J2" V 6715 3380 50  0000 C CNN
-F 1 "Conn_01x07_Female" V 6624 3380 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S7B-XH-A_1x07_P2.50mm_Horizontal" H 6550 3400 50  0001 C CNN
-F 3 "~" H 6550 3400 50  0001 C CNN
-	1    6550 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 3100 6300 3100
 Wire Wire Line
@@ -625,8 +553,6 @@ Text HLabel 10200 1600 3    50   Output ~ 0
 GND_BAT
 Wire Wire Line
 	6300 2650 6500 2650
-Text HLabel 2950 3100 0    50   Output ~ 0
-V_BAT
 Text HLabel 2950 4000 0    50   Output ~ 0
 GND_BAT
 Text HLabel 6300 3950 3    50   Output ~ 0
@@ -644,8 +570,6 @@ Wire Wire Line
 Connection ~ 6300 3700
 Wire Wire Line
 	6300 3700 6350 3700
-Text HLabel 2250 2950 3    50   Output ~ 0
-GND_BAT
 Wire Wire Line
 	9500 1550 9950 1550
 Connection ~ 9950 1550
@@ -663,4 +587,23 @@ Text HLabel 6500 2650 2    50   Output ~ 0
 GND_BAT
 Text HLabel 5100 4350 2    50   Output ~ 0
 GND_BAT
+$Comp
+L Connector:Conn_01x07_Female J2
+U 1 1 5FF8226F
+P 6550 3400
+F 0 "J2" V 6715 3380 50  0000 C CNN
+F 1 "Conn_01x07_Female" V 6624 3380 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S7B-XH-A_1x07_P2.50mm_Horizontal" H 6550 3400 50  0001 C CNN
+F 3 "~" H 6550 3400 50  0001 C CNN
+	1    6550 3400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1800 1850 3150 1850
+Wire Wire Line
+	1800 1950 3150 1950
+Wire Wire Line
+	1800 2550 3150 2550
+Text HLabel 2950 3100 0    50   Output ~ 0
+V_BAT
 $EndSCHEMATC
