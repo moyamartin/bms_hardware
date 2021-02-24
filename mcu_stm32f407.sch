@@ -30,7 +30,7 @@ U 1 1 5FE5244A
 P 2350 3050
 F 0 "Y1" V 2304 2919 50  0000 R CNN
 F 1 "8MHz" V 2395 2919 50  0000 R CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 2350 3050 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD" H 2350 3050 50  0001 C CNN
 F 3 "https://ar.mouser.com/ProductDetail/815-ABLS-8-B2/" H 2350 3050 50  0001 C CNN
 	1    2350 3050
 	0    -1   1    0   
@@ -466,9 +466,9 @@ Text HLabel 4950 5400 2    50   Input ~ 0
 BQ76_FAULT
 Text HLabel 4950 5500 2    50   Input ~ 0
 BQ76_ALERT
-Text HLabel 4950 5600 2    50   Input ~ 0
+Text HLabel 4950 3300 2    50   Input ~ 0
 BQ76_DRDY
-Text HLabel 4950 5700 2    50   Output ~ 0
+Text HLabel 4950 3400 2    50   Output ~ 0
 BQ76_CONV
 Text HLabel 4950 2700 2    50   Input ~ 0
 CAN_1RX
