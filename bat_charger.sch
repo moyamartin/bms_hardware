@@ -27,39 +27,39 @@ $EndComp
 $Comp
 L Device:LED D14
 U 1 1 5FC6CF41
-P 5150 7050
-F 0 "D14" V 5189 6932 50  0000 R CNN
-F 1 "VCC" V 5098 6932 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5150 7050 50  0001 C CNN
-F 3 "https://ar.mouser.com/ProductDetail/LTST-C190KGKT" H 5150 7050 50  0001 C CNN
-	1    5150 7050
+P 4850 7050
+F 0 "D14" V 4889 6932 50  0000 R CNN
+F 1 "VCC" V 4798 6932 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 7050 50  0001 C CNN
+F 3 "https://ar.mouser.com/ProductDetail/LTST-C190KGKT" H 4850 7050 50  0001 C CNN
+	1    4850 7050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R44
 U 1 1 5FC6E27D
-P 5150 6600
-F 0 "R44" H 5220 6646 50  0000 L CNN
-F 1 "5K6" H 5220 6555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5080 6600 50  0001 C CNN
-F 3 "https://ar.mouser.com/ProductDetail/ERJ-T06J562V" H 5150 6600 50  0001 C CNN
-	1    5150 6600
+P 4850 6600
+F 0 "R44" H 4920 6646 50  0000 L CNN
+F 1 "5K6" H 4920 6555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4780 6600 50  0001 C CNN
+F 3 "https://ar.mouser.com/ProductDetail/ERJ-T06J562V" H 4850 6600 50  0001 C CNN
+	1    4850 6600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 7500 5150 7200
+	4850 7500 4850 7200
 Wire Wire Line
-	5150 6900 5150 6750
+	4850 6900 4850 6750
 Wire Wire Line
-	5150 6450 5150 6250
+	4850 6450 4850 6250
 Text Label 4050 4450 2    50   ~ 0
 STAT1
 Text Label 4050 4550 2    50   ~ 0
 STAT2
 Wire Wire Line
-	6250 6900 6250 6750
+	6050 6900 6050 6750
 Wire Wire Line
-	6250 7200 6250 7300
+	6050 7200 6050 7300
 Wire Wire Line
 	4050 4450 3800 4450
 Wire Wire Line
@@ -67,106 +67,106 @@ Wire Wire Line
 Text Label 4050 3450 2    50   ~ 0
 ACDRV
 Wire Wire Line
-	6250 7300 6500 7300
+	6050 7300 6300 7300
 Wire Wire Line
-	5900 7400 6200 7400
+	5700 7400 6000 7400
 Wire Wire Line
-	5900 7200 5900 7400
-Text Label 6500 7300 2    50   ~ 0
+	5700 7200 5700 7400
+Text Label 6300 7300 2    50   ~ 0
 STAT1
-Text Label 6200 7400 2    50   ~ 0
+Text Label 6000 7400 2    50   ~ 0
 STAT2
 Wire Wire Line
-	5550 7200 5550 7500
+	5350 7200 5350 7500
 Wire Wire Line
-	5550 7500 5700 7500
-Text Label 5700 7500 2    50   ~ 0
+	5350 7500 5500 7500
+Text Label 5500 7500 2    50   ~ 0
 PG
 Wire Wire Line
-	5550 6900 5550 6750
-Text HLabel 6500 7300 2    50   Output ~ 0
-STAT1
-Text HLabel 6200 7400 2    50   Output ~ 0
-STAT2
-Text HLabel 5700 7500 2    50   Output ~ 0
-PG
+	5350 6900 5350 6750
+Text HLabel 6300 7300 2    50   Output ~ 0
+STAT1_BQ24
+Text HLabel 6000 7400 2    50   Output ~ 0
+STAT2_BQ24
+Text HLabel 5500 7500 2    50   Output ~ 0
+PG_BQ24
 $Comp
 L Device:LED D15
 U 1 1 5FE43B78
-P 5550 6600
-F 0 "D15" V 5550 6500 50  0000 R CNN
-F 1 "PG" V 5650 6500 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 6600 50  0001 C CNN
-F 3 "https://ar.mouser.com/ProductDetail/LTST-C190KGKT" H 5550 6600 50  0001 C CNN
-	1    5550 6600
+P 5350 6600
+F 0 "D15" V 5350 6500 50  0000 R CNN
+F 1 "PG" V 5450 6500 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 6600 50  0001 C CNN
+F 3 "https://ar.mouser.com/ProductDetail/LTST-C190KGKT" H 5350 6600 50  0001 C CNN
+	1    5350 6600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5900 6900 5900 6750
+	5700 6900 5700 6750
 Wire Wire Line
-	5550 6450 5550 6300
+	5350 6450 5350 6300
 Wire Wire Line
-	5550 6300 5900 6300
+	5350 6300 5700 6300
 Wire Wire Line
-	5900 6300 6250 6300
+	5700 6300 6050 6300
 Wire Wire Line
-	6250 6300 6250 6450
-Connection ~ 5900 6300
+	6050 6300 6050 6450
+Connection ~ 5700 6300
 Wire Wire Line
-	5900 6450 5900 6300
+	5700 6450 5700 6300
 $Comp
 L Device:R R45
 U 1 1 5FDF3D4E
-P 5550 7050
-F 0 "R45" H 5480 7004 50  0000 R CNN
-F 1 "470R" H 5480 7095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5480 7050 50  0001 C CNN
-F 3 "https://ar.mouser.com/ProductDetail/CR0805-FX-4220ELF" H 5550 7050 50  0001 C CNN
-	1    5550 7050
+P 5350 7050
+F 0 "R45" H 5280 7004 50  0000 R CNN
+F 1 "470R" H 5280 7095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5280 7050 50  0001 C CNN
+F 3 "https://ar.mouser.com/ProductDetail/CR0805-FX-4220ELF" H 5350 7050 50  0001 C CNN
+	1    5350 7050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R46
 U 1 1 5FD06754
-P 5900 7050
-F 0 "R46" H 5830 7004 50  0000 R CNN
-F 1 "470R" H 5830 7095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5830 7050 50  0001 C CNN
-F 3 "https://ar.mouser.com/ProductDetail/CR0805-FX-4220ELF" H 5900 7050 50  0001 C CNN
-	1    5900 7050
+P 5700 7050
+F 0 "R46" H 5630 7004 50  0000 R CNN
+F 1 "470R" H 5630 7095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5630 7050 50  0001 C CNN
+F 3 "https://ar.mouser.com/ProductDetail/CR0805-FX-4220ELF" H 5700 7050 50  0001 C CNN
+	1    5700 7050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R47
 U 1 1 5FD04CAC
-P 6250 7050
-F 0 "R47" H 6180 7004 50  0000 R CNN
-F 1 "470R" H 6180 7095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6180 7050 50  0001 C CNN
-F 3 "https://ar.mouser.com/ProductDetail/CR0805-FX-4220ELF" H 6250 7050 50  0001 C CNN
-	1    6250 7050
+P 6050 7050
+F 0 "R47" H 5980 7004 50  0000 R CNN
+F 1 "470R" H 5980 7095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5980 7050 50  0001 C CNN
+F 3 "https://ar.mouser.com/ProductDetail/CR0805-FX-4220ELF" H 6050 7050 50  0001 C CNN
+	1    6050 7050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D17
 U 1 1 5FE36851
-P 6250 6600
-F 0 "D17" V 6250 6500 50  0000 R CNN
-F 1 "STAT1" V 6350 6550 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6250 6600 50  0001 C CNN
-F 3 "https://mouser.com/ProductDetail/LTST-C190AKT" H 6250 6600 50  0001 C CNN
-	1    6250 6600
+P 6050 6600
+F 0 "D17" V 6050 6500 50  0000 R CNN
+F 1 "STAT1" V 6150 6550 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 6600 50  0001 C CNN
+F 3 "https://mouser.com/ProductDetail/LTST-C190AKT" H 6050 6600 50  0001 C CNN
+	1    6050 6600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D16
 U 1 1 5FE4380E
-P 5900 6600
-F 0 "D16" V 5900 6500 50  0000 R CNN
-F 1 "STAT2" V 6000 6550 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 6600 50  0001 C CNN
-F 3 "https://ar.mouser.com/ProductDetail/LTST-C190AKT" H 5900 6600 50  0001 C CNN
-	1    5900 6600
+P 5700 6600
+F 0 "D16" V 5700 6500 50  0000 R CNN
+F 1 "STAT2" V 5800 6550 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5700 6600 50  0001 C CNN
+F 3 "https://ar.mouser.com/ProductDetail/LTST-C190AKT" H 5700 6600 50  0001 C CNN
+	1    5700 6600
 	0    -1   -1   0   
 $EndComp
 Text Label 4050 3950 2    50   ~ 0
@@ -322,11 +322,11 @@ $EndComp
 Wire Notes Line
 	6900 7700 6900 5650
 Wire Notes Line
-	6900 5650 4750 5650
+	6900 5650 4450 5650
 Wire Notes Line
-	4750 5650 4750 7700
+	4450 5650 4450 7700
 Wire Notes Line
-	4750 7700 6900 7700
+	4450 7700 6900 7700
 Text Label 9950 5150 0    50   ~ 0
 VFB
 Wire Wire Line
@@ -453,7 +453,7 @@ P 1750 1800
 F 0 "J3" H 1830 1700 50  0000 L CNN
 F 1 "Vcc In" H 1830 1791 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical" H 1750 1800 50  0001 C CNN
-F 3 "~" H 1750 1800 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/571-1744429-2/" H 1750 1800 50  0001 C CNN
 	1    1750 1800
 	-1   0    0    1   
 $EndComp
@@ -461,16 +461,16 @@ Wire Wire Line
 	4050 4150 3800 4150
 Wire Wire Line
 	4050 4250 3800 4250
-Text Notes 5500 5800 0    59   ~ 12
+Text Notes 5300 5800 0    59   ~ 12
 Status LEDs & Signals
-Text Notes 750  3550 0    59   ~ 12
+Text Notes 650  3550 0    59   ~ 12
 Reset & CE Source Selector
 Wire Notes Line
-	650  5600 650  3400
+	550  5600 550  3400
 Wire Notes Line
 	2050 3400 2050 5600
 Wire Notes Line
-	650  3400 2050 3400
+	550  3400 2050 3400
 Wire Wire Line
 	1750 5150 1750 5200
 Connection ~ 1750 5150
@@ -549,7 +549,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 5100 1100 5100
 Text HLabel 1000 5200 0    50   Input ~ 0
-uCE
+CE_BQ24
 Text Notes 850  5550 0    50   ~ 0
 * 1 ON  , 2 OFF: Stand Alone\n* 1 OFF , 2 ON : u Controlled
 Text Notes 9250 5650 0    50   ~ 0
@@ -1044,10 +1044,10 @@ Text Label 3600 1050 3    50   ~ 0
 VBUS
 Text Label 1000 3750 3    50   ~ 0
 VREF
-Text Label 5900 6050 3    50   ~ 0
+Text Label 5700 6050 3    50   ~ 0
 VREF
 Wire Wire Line
-	5900 6050 5900 6300
+	5700 6050 5700 6300
 $Comp
 L Connector:TestPoint TP3
 U 1 1 61458AB8
@@ -1082,15 +1082,15 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP5
 U 1 1 6155EE9E
-P 5150 6250
-F 0 "TP5" H 5100 6600 50  0000 L CNN
-F 1 "VCC" H 5100 6500 50  0000 L CNN
-F 2 "TestPoint:KEYSTONE_5016" H 5350 6250 50  0001 C CNN
-F 3 "~" H 5350 6250 50  0001 C CNN
-	1    5150 6250
+P 4850 6250
+F 0 "TP5" H 4800 6600 50  0000 L CNN
+F 1 "VCC" H 4800 6500 50  0000 L CNN
+F 2 "TestPoint:KEYSTONE_5016" H 5050 6250 50  0001 C CNN
+F 3 "~" H 5050 6250 50  0001 C CNN
+	1    4850 6250
 	1    0    0    -1  
 $EndComp
-Text Label 5150 6250 3    50   ~ 0
+Text Label 4850 6250 3    50   ~ 0
 VCC
 $Comp
 L Connector:TestPoint TP6
@@ -1198,7 +1198,7 @@ Text Label 1800 7250 3    50   ~ 0
 GNDA
 Text Label 1500 7600 1    50   ~ 0
 GND_BAT
-Text Label 5150 7500 1    50   ~ 0
+Text Label 4850 7500 1    50   ~ 0
 GNDA
 Text Label 8400 5600 3    50   ~ 0
 GNDA
@@ -1221,7 +1221,7 @@ Output
 Text Label 6950 2550 1    50   ~ 0
 GND_BAT
 Wire Notes Line
-	2050 5600 650  5600
+	2050 5600 550  5600
 Text HLabel 1850 7550 2    50   Output ~ 0
 GNDA
 Wire Wire Line

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_FET:IRF9310PbF Q13
+L bms_hardware-rescue:IRF9310PbF-Transistor_FET Q13
 U 1 1 6023360E
 P 6050 2700
 F 0 "Q13" H 6050 3075 50  0000 C CNN
@@ -145,7 +145,7 @@ Wire Wire Line
 	6350 2550 6550 2550
 Connection ~ 6350 2550
 $Comp
-L 2021-02-09_22-26-07:FERD2045SB-TR U5
+L bms_hardware-rescue:FERD2045SB-TR-2021-02-09_22-26-07 U5
 U 1 1 6024EE1E
 P 6250 4500
 F 0 "U5" V 7250 3650 60  0000 L CNN
