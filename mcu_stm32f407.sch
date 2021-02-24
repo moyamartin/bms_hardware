@@ -567,4 +567,12 @@ Text Notes 7600 4300 0    50   ~ 0
 Additional precautions can be taken to filter analog noise:\n–VDDA can be connected to VDD through a ferrite bead.\n–The VREF+ pin can be connected to VDDA through a 47ohm resistor
 Text HLabel 4950 3800 2    50   Input ~ 0
 SWT_GPIO
+Text HLabel 3150 6500 0    50   Input ~ 0
+BQ24_STAT1
+Text HLabel 3150 6400 0    50   Input ~ 0
+BQ24_STAT2
+Text HLabel 3150 6300 0    50   Input ~ 0
+BQ24_PG
+Text HLabel 3150 6200 0    50   Output ~ 0
+BQ24_CE
 $EndSCHEMATC
