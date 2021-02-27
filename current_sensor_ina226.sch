@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Analog_ADC:INA226 U1
+L Analog_ADC:INA226 U9
 U 1 1 5FE92189
 P 5400 3900
-F 0 "U1" H 5400 4000 50  0000 C CNN
+F 0 "U9" H 5400 4000 50  0000 C CNN
 F 1 "INA226" H 5400 3900 50  0000 C CNN
 F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 6200 3450 50  0001 C CNN
 F 3 "https://ar.mouser.com/ProductDetail/Texas-Instruments/INA226AIDGSR/?qs=tQG3bEuiOZD4quG3egR36g%3D%3D" H 5750 3800 50  0001 C CNN

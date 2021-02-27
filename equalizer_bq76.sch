@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -266,7 +266,6 @@ Wire Wire Line
 	4950 4550 4950 4350
 Wire Wire Line
 	4950 4350 5100 4350
-Connection ~ 4950 4350
 Text Notes 5600 750  0    50   ~ 10
 NOTES
 Text Notes 5600 1300 0    50   ~ 0
@@ -346,24 +345,6 @@ F 3 "https://ar.mouser.com/ProductDetail/594-NTCALUG01A103FA/" H 10800 2850 50  
 $EndComp
 Text GLabel 3150 5650 0    50   Input ~ 0
 REG50
-Wire Wire Line
-	4950 4350 4950 4250
-Wire Wire Line
-	4950 4150 4950 4250
-Connection ~ 4950 4250
-$Comp
-L bms_hardware-rescue:BQ76PL536A-Battery_Management U?
-U 1 1 5FE7709D
-P 4050 3750
-AR Path="/5FE7709D" Ref="U?"  Part="1" 
-AR Path="/5FE7678E/5FE7709D" Ref="U2"  Part="1" 
-F 0 "U2" H 4050 6038 60  0000 C CNN
-F 1 "BQ76PL536A" H 4050 5932 60  0000 C CNN
-F 2 "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm" H 4050 3690 60  0001 C CNN
-F 3 "https://ar.mouser.com/ProductDetail/Texas-Instruments/BQ76PL536APAPT/?qs=UlfnwZ2x8nT1EXA%252BD%252BEfIQ%3D%3D" H 4050 5932 60  0001 C CNN
-	1    4050 3750
-	1    0    0    -1  
-$EndComp
 Text GLabel 10850 1050 1    50   Input ~ 0
 REG50
 $Comp
@@ -606,4 +587,17 @@ Wire Wire Line
 	1800 2550 3150 2550
 Text HLabel 2950 3100 0    50   Output ~ 0
 V_BAT
+Wire Wire Line
+	4950 4150 4950 4250
+$Comp
+L Battery_Management:BQ76PL536APAPR U2
+U 1 1 603E20E4
+P 4050 3750
+F 0 "U2" H 4050 6038 60  0000 C CNN
+F 1 "BQ76PL536APAPR" H 4050 5932 60  0000 C CNN
+F 2 "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias" H 4050 3690 60  0001 C CNN
+F 3 "" H 4050 3750 60  0000 C CNN
+	1    4050 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

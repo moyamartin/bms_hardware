@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L bms_hardware-rescue:TPS54331D-Regulator_Switching U4
-U 1 1 60036491
-P 4700 1250
-F 0 "U4" H 4700 1920 50  0000 C CNN
-F 1 "TPS54331D" H 4700 1829 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4700 1250 50  0001 L BNN
-F 3 "https://ar.mouser.com/ProductDetail/Texas-Instruments/TPS54331DR/?qs=QyYHynRG50rsSYcB%2Ftz4Yw%3D%3D" H 4700 1250 50  0001 L BNN
-	1    4700 1250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Diode:B340 D19
 U 1 1 60048579
@@ -209,8 +198,6 @@ Wire Wire Line
 	5600 1650 5800 1650
 Wire Wire Line
 	5400 850  5800 850 
-Connection ~ 5400 850 
-Connection ~ 5400 1650
 Wire Wire Line
 	5400 1150 5400 1350
 Connection ~ 3250 1250
@@ -379,4 +366,17 @@ Wire Notes Line
 	6600 650  6600 1700
 Wire Notes Line
 	11100 650  11100 1700
+$Comp
+L Regulator_Switching:TPS54331D U4
+U 1 1 603F4701
+P 4700 1250
+F 0 "U4" H 4700 1920 50  0000 C CNN
+F 1 "TPS54331D" H 4700 1829 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4700 1250 50  0001 L BNN
+F 3 "https://ar.mouser.com/ProductDetail/Texas-Instruments/TPS54331DR/?qs=QyYHynRG50rsSYcB%2Ftz4Yw%3D%3D" H 4700 1250 50  0001 L BNN
+	1    4700 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 850 
+Connection ~ 5400 1650
 $EndSCHEMATC

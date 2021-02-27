@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -343,7 +343,7 @@ Wire Wire Line
 Connection ~ 8000 2350
 Text Notes 550  900  0    50   ~ 0
 BOOT pins configuration\nBOOT 0    BOOT 1     MODE\n0          X           Main flash memory boot <- Selected\n1          0           System Memory boot (boot loader)\n1          1           RAM memory
-Text Notes 10350 2050 0    50   ~ 0
+Text Notes 9700 2450 0    50   ~ 0
 SWD
 Text GLabel 4950 3600 2    50   Input ~ 0
 PB3
@@ -359,36 +359,7 @@ F 3 "https://ar.mouser.com/ProductDetail/Fair-Rite/2508052217Y3/?qs=sGAEpiMZZMuk
 	0    -1   -1   0   
 $EndComp
 Text GLabel 4950 2900 2    50   Input ~ 0
-PA13
-Text GLabel 4950 3000 2    50   Input ~ 0
-PA14
-$Comp
-L Connector:Conn_01x05_Male J5
-U 1 1 5FF02221
-P 10550 2400
-F 0 "J5" H 10700 2100 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 10950 2000 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10550 2400 50  0001 C CNN
-F 3 "~" H 10550 2400 50  0001 C CNN
-	1    10550 2400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	10050 2200 10350 2200
-Text GLabel 10200 2300 0    50   Input ~ 0
-PA13
-Wire Wire Line
-	10200 2300 10350 2300
-Text GLabel 10200 2400 0    50   Input ~ 0
-PA14
-Wire Wire Line
-	10200 2400 10350 2400
-Text GLabel 10200 2500 0    50   Input ~ 0
-NRST
-Wire Wire Line
-	10200 2500 10350 2500
-Wire Wire Line
-	10050 2600 10350 2600
+SWDIO
 $Comp
 L Device:R R67
 U 1 1 5FF0D03B
@@ -409,12 +380,6 @@ Wire Wire Line
 Connection ~ 3050 1600
 Wire Wire Line
 	3050 1600 3150 1600
-Text Notes 10550 2300 0    50   ~ 0
-SWCLK
-Text Notes 10550 2400 0    50   ~ 0
-SWDIO
-Text Notes 10550 2500 0    50   ~ 0
-RST
 Text HLabel 4950 4000 2    50   BiDi ~ 0
 SDA
 Text HLabel 4950 3900 2    50   Output ~ 0
@@ -440,10 +405,6 @@ Text HLabel 4050 6950 3    50   Input ~ 0
 GND_BATT
 Text HLabel 8250 2750 3    50   Input ~ 0
 GND_BATT
-Text HLabel 10050 2600 0    50   Input ~ 0
-GND_BATT
-Text HLabel 10050 2200 0    50   Input ~ 0
-3V3
 Text HLabel 7650 900  1    50   Input ~ 0
 3V3
 Text HLabel 7100 2350 0    50   Input ~ 0
@@ -482,7 +443,7 @@ U 1 1 6020B6D3
 P 5850 1300
 F 0 "SW3" V 5896 1252 50  0000 R CNN
 F 1 "SW_Push" V 5805 1252 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 5850 1500 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5850 1500 50  0001 C CNN
 F 3 "~" H 5850 1500 50  0001 C CNN
 	1    5850 1300
 	0    -1   -1   0   
@@ -495,11 +456,11 @@ Text HLabel 5850 1600 3    50   Input ~ 0
 GND_BATT
 Wire Wire Line
 	5850 1500 5850 1600
-Text Notes 7600 3550 0    50   ~ 0
+Text Notes 6750 3550 0    50   ~ 0
 The VDD pins must be connected to VDD with external decoupling\ncapacitors: one single Tantalum or Ceramic capacitor (min. 4.7 μF typ.\n10 μF) for the package + one 100 nF Ceramic capacitor for each VDD\npin.
-Text Notes 7600 3800 0    50   ~ 0
+Text Notes 6750 3800 0    50   ~ 0
 The VBAT pin can be connected to the external battery (1.65 V < VBAT <\n3.6 V). If no external battery is used, it is recommended to connect this\npin to VDD with a 100 nF external ceramic decoupling capacitor.
-Text Notes 7600 4000 0    50   ~ 0
+Text Notes 6750 4000 0    50   ~ 0
 The VDDA pin must be connected to two external decoupling\ncapacitors (100 nF Ceramic + 1 μF Tantalum or Ceramic).
 Text GLabel 2900 2200 0    50   Input ~ 0
 VREF+
@@ -563,16 +524,100 @@ F 3 "~" H 8900 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8500 2200 8500 2350
-Text Notes 7600 4300 0    50   ~ 0
+Text Notes 6750 4300 0    50   ~ 0
 Additional precautions can be taken to filter analog noise:\n–VDDA can be connected to VDD through a ferrite bead.\n–The VREF+ pin can be connected to VDDA through a 47ohm resistor
+<<<<<<< HEAD
 Text HLabel 4950 3800 2    50   Input ~ 0
 SWT_GPIO
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> b0e732e... Adds final pcb
 Text HLabel 3150 6500 0    50   Input ~ 0
+=======
+Text HLabel 4950 5200 2    50   Input ~ 0
+>>>>>>> 356c5f8... Final version pcb
 BQ24_STAT1
-Text HLabel 3150 6400 0    50   Input ~ 0
+Text HLabel 4950 5100 2    50   Input ~ 0
 BQ24_STAT2
-Text HLabel 3150 6300 0    50   Input ~ 0
+Text HLabel 4950 5000 2    50   Input ~ 0
 BQ24_PG
-Text HLabel 3150 6200 0    50   Output ~ 0
+Text HLabel 4950 5300 2    50   Output ~ 0
 BQ24_CE
+Text HLabel 10150 2600 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	10150 2600 10450 2600
+Wire Wire Line
+	10300 2900 10450 2900
+Text GLabel 10300 2900 0    50   Input ~ 0
+NRST
+Wire Wire Line
+	10300 2800 10450 2800
+Text GLabel 10300 2800 0    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	10300 2700 10450 2700
+Text GLabel 10300 2700 0    50   Input ~ 0
+SWDIO
+Text HLabel 10150 3000 0    50   Input ~ 0
+GND_BATT
+Wire Wire Line
+	10150 3000 10450 3000
+$Comp
+L Connector:Conn_01x05_Male J5
+U 1 1 5FF02221
+P 10650 2800
+F 0 "J5" H 10800 2500 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 11050 2400 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10650 2800 50  0001 C CNN
+F 3 "~" H 10650 2800 50  0001 C CNN
+	1    10650 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 603D1606
+P 10700 3750
+F 0 "J1" H 10850 3900 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 11150 4000 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10700 3750 50  0001 C CNN
+F 3 "~" H 10700 3750 50  0001 C CNN
+	1    10700 3750
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	9650 3350 11200 3350
+Wire Notes Line
+	11200 2350 9650 2350
+Text GLabel 3150 5200 0    50   Input ~ 0
+UART_RX
+Text GLabel 4950 6200 2    50   Input ~ 0
+UART_TX
+Text GLabel 10500 3750 0    50   Input ~ 0
+UART_RX
+Text GLabel 10500 3650 0    50   Input ~ 0
+UART_TX
+Text HLabel 10500 3850 0    50   Input ~ 0
+3V3
+Text HLabel 10500 3550 0    50   Input ~ 0
+GND_BATT
+Wire Notes Line
+	9650 4100 11200 4100
+Wire Notes Line
+	9650 2350 9650 4100
+Wire Notes Line
+	11200 2350 11200 4100
+Text Notes 9700 3450 0    50   ~ 0
+UART
+Text GLabel 4950 3000 2    50   Input ~ 0
+SWCLK
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+>>>>>>> b0e732e... Adds final pcb
+=======
+Text HLabel 3150 3500 0    50   Input ~ 0
+SWT_GPIO
+>>>>>>> 356c5f8... Final version pcb
 $EndSCHEMATC
