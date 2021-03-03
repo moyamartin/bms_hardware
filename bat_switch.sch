@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L bms_hardware-rescue:IRF9310PbF-Transistor_FET Q13
-U 1 1 6023360E
-P 6050 2700
-F 0 "Q13" H 6050 3075 50  0000 C CNN
-F 1 "IRF9310PbF" H 6050 2984 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6050 2700 50  0001 C CNN
-F 3 "https://ar.mouser.com/datasheet/2/196/irf9310pbf-1732564.pdf" H 6050 2700 50  0001 C CNN
-	1    6050 2700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Transistor_BJT:BC848 Q11
 U 1 1 60234053
@@ -123,51 +112,62 @@ Wire Wire Line
 	5100 2550 5750 2550
 Connection ~ 5100 3200
 Wire Wire Line
-	5750 2550 5750 2650
-Connection ~ 5750 2550
-Connection ~ 5750 2650
-Wire Wire Line
-	5750 2650 5750 2750
-Wire Wire Line
 	5000 2550 5100 2550
 Connection ~ 5100 2550
 Text HLabel 6550 2550 2    50   Input ~ 0
 D
 Wire Wire Line
-	6350 2550 6350 2650
-Connection ~ 6350 2650
-Wire Wire Line
-	6350 2650 6350 2750
-Connection ~ 6350 2750
-Wire Wire Line
-	6350 2750 6350 2850
-Wire Wire Line
 	6350 2550 6550 2550
-Connection ~ 6350 2550
-$Comp
-L bms_hardware-rescue:FERD2045SB-TR-2021-02-09_22-26-07 U5
-U 1 1 6024EE1E
-P 6250 4500
-F 0 "U5" V 7103 4072 60  0000 R CNN
-F 1 "FERD2045SB-TR" V 6997 4072 60  0000 R CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 7050 4740 60  0001 C CNN
-F 3 "https://ar.mouser.com/datasheet/2/389/ferd2045s-1849465.pdf" V 7156 4728 60  0001 L CNN
-	1    6250 4500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6350 2900 6350 2850
-Connection ~ 6350 2850
-Wire Wire Line
-	6550 4500 6150 4500
 Wire Wire Line
 	5100 4500 5100 4300
-Connection ~ 6150 4500
-Wire Wire Line
-	6150 4500 5800 4500
 Wire Wire Line
 	5800 4500 5800 4600
 Connection ~ 5800 4500
 Wire Wire Line
 	5800 4500 5100 4500
+Wire Wire Line
+	5800 4500 6150 4500
+$Comp
+L 2021-02-09_22-26-07:FERD2045SB-TR U5
+U 1 1 603F99FF
+P 6250 4500
+F 0 "U5" V 7156 4072 60  0000 R CNN
+F 1 "FERD2045SB-TR" V 7050 4072 60  0000 R CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 7050 4740 60  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/389/ferd2045s-1849465.pdf" V 6944 4072 60  0000 R CNN
+	1    6250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:IRF9310PbF Q13
+U 1 1 603FB927
+P 6050 2700
+F 0 "Q13" H 6050 3075 50  0000 C CNN
+F 1 "IRF9310PbF" H 6050 2984 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6050 2700 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/196/irf9310pbf-1732564.pdf" H 6050 2700 50  0001 C CNN
+	1    6050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2650 5750 2750
+Wire Wire Line
+	6350 2850 6350 2900
+Wire Wire Line
+	5750 2650 5750 2550
+Connection ~ 5750 2650
+Connection ~ 5750 2550
+Wire Wire Line
+	6350 2850 6350 2750
+Connection ~ 6350 2850
+Connection ~ 6350 2550
+Connection ~ 6350 2650
+Wire Wire Line
+	6350 2650 6350 2550
+Connection ~ 6350 2750
+Wire Wire Line
+	6350 2750 6350 2650
+Wire Wire Line
+	6150 4500 6550 4500
+Connection ~ 6150 4500
 $EndSCHEMATC

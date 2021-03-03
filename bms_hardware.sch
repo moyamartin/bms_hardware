@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -127,9 +127,9 @@ Wire Wire Line
 Wire Wire Line
 	7900 4100 7900 4200
 Wire Wire Line
-	4150 5500 4150 5400
+	4150 5950 4150 5850
 Wire Wire Line
-	4150 5400 4350 5400
+	4150 5850 4350 5850
 Wire Wire Line
 	7950 4550 7800 4550
 $Comp
@@ -220,11 +220,6 @@ F 3 "" H 6500 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7850 2300 7850 2750
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> mmoya/pcb_bq76
 Wire Wire Line
 	6500 2400 6500 2300
 Wire Wire Line
@@ -239,30 +234,12 @@ Wire Wire Line
 	6000 4750 6600 4750
 Wire Wire Line
 	6000 4900 6600 4900
-<<<<<<< HEAD
-$Comp
-L power:GND #PWR?
-U 1 1 6043EB1E
-P 6500 5150
-F 0 "#PWR?" H 6500 4900 50  0001 C CNN
-F 1 "GND" H 6505 4977 50  0000 C CNN
-F 2 "" H 6500 5150 50  0001 C CNN
-F 3 "" H 6500 5150 50  0001 C CNN
-	1    6500 5150
-	1    0    0    -1  
-$EndComp
-=======
->>>>>>> mmoya/pcb_bq76
 Wire Wire Line
 	6600 5050 6500 5050
 Wire Wire Line
 	6500 5050 6500 5150
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> mmoya/pcb_bq76
 $Sheet
-S 4350 2100 1650 3350
+S 4350 2100 1650 3850
 U 5FE4EB49
 F0 "mcu_stm32f407" 50
 F1 "mcu_stm32f407.sch" 50
@@ -273,29 +250,19 @@ F5 "MISO" I R 6000 3600 50
 F6 "MOSI" I R 6000 3500 50 
 F7 "CS" O R 6000 3700 50 
 F8 "3V3" I L 4350 2200 50 
-F9 "GND_BATT" I L 4350 5400 50 
+F9 "GND_BATT" I L 4350 5850 50 
 F10 "BQ76_FAULT" I R 6000 3800 50 
 F11 "BQ76_ALERT" I R 6000 3900 50 
 F12 "BQ76_DRDY" I R 6000 4000 50 
 F13 "BQ76_CONV" O R 6000 4100 50 
-F14 "CAN_1RX" I R 6000 5300 50 
-F15 "CAN_1TX" O R 6000 5400 50 
+F14 "CAN_1RX" I R 6000 5650 50 
+F15 "CAN_1TX" O R 6000 5750 50 
 F16 "SWT_GPIO" I R 6000 2200 50 
 F17 "BQ24_STAT1" I R 6000 4550 50 
 F18 "BQ24_STAT2" I R 6000 4650 50 
 F19 "BQ24_PG" I R 6000 4750 50 
 F20 "BQ24_CE" O R 6000 4900 50 
 $EndSheet
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-Wire Wire Line
-	6500 2400 6500 2300
-Wire Wire Line
-	6500 2300 6600 2300
-Wire Wire Line
-	6000 2200 6600 2200
-=======
 $Comp
 L power:GND1 #PWR0102
 U 1 1 60477710
@@ -308,10 +275,10 @@ F 3 "" H 6500 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H1
+L Mechanical:MountingHole_Pad +(LOAD)1
 U 1 1 603CEDD4
 P 8650 2200
-F 0 "H1" V 8604 2350 50  0000 L CNN
+F 0 "+(LOAD)1" V 8604 2350 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8695 2350 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3mm_Pad_TopBottom" H 8650 2200 50  0001 C CNN
 F 3 "~" H 8650 2200 50  0001 C CNN
@@ -319,10 +286,10 @@ F 3 "~" H 8650 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2
+L Mechanical:MountingHole_Pad -(LOAD)1
 U 1 1 603CF236
 P 8650 2400
-F 0 "H2" V 8604 2550 50  0000 L CNN
+F 0 "-(LOAD)1" V 8604 2550 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8695 2550 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3mm_Pad_TopBottom" H 8650 2400 50  0001 C CNN
 F 3 "~" H 8650 2400 50  0001 C CNN
@@ -330,10 +297,10 @@ F 3 "~" H 8650 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L Mechanical:MountingHole_Pad +(BATT)1
 U 1 1 603D2DAC
 P 8700 1950
-F 0 "H3" V 8654 2100 50  0000 L CNN
+F 0 "+(BATT)1" V 8654 2100 50  0000 L CNN
 F 1 "MountingHole_Pad" V 8745 2100 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3mm_Pad_TopBottom" H 8700 1950 50  0001 C CNN
 F 3 "~" H 8700 1950 50  0001 C CNN
@@ -345,12 +312,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0101
 U 1 1 603A900F
-P 4150 5500
-F 0 "#PWR0101" H 4150 5250 50  0001 C CNN
-F 1 "GND" H 4155 5327 50  0000 C CNN
-F 2 "" H 4150 5500 50  0001 C CNN
-F 3 "" H 4150 5500 50  0001 C CNN
-	1    4150 5500
+P 4150 5950
+F 0 "#PWR0101" H 4150 5700 50  0001 C CNN
+F 1 "GND" H 4155 5777 50  0000 C CNN
+F 2 "" H 4150 5950 50  0001 C CNN
+F 3 "" H 4150 5950 50  0001 C CNN
+	1    4150 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -387,16 +354,98 @@ F 3 "" H 7950 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+BATT #PWR0106
-U 1 1 603C7CF3
+L Mechanical:MountingHole H1
+U 1 1 606D878B
+P 1500 700
+F 0 "H1" H 1600 746 50  0000 L CNN
+F 1 "MountingHole" H 1600 655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1500 700 50  0001 C CNN
+F 3 "~" H 1500 700 50  0001 C CNN
+	1    1500 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 606D8D42
+P 2250 700
+F 0 "H3" H 2350 746 50  0000 L CNN
+F 1 "MountingHole" H 2350 655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2250 700 50  0001 C CNN
+F 3 "~" H 2250 700 50  0001 C CNN
+	1    2250 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 606D8F0C
+P 1500 900
+F 0 "H2" H 1600 946 50  0000 L CNN
+F 1 "MountingHole" H 1600 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1500 900 50  0001 C CNN
+F 3 "~" H 1500 900 50  0001 C CNN
+	1    1500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 606D91EB
+P 2250 900
+F 0 "H4" H 2350 946 50  0000 L CNN
+F 1 "MountingHole" H 2350 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2250 900 50  0001 C CNN
+F 3 "~" H 2250 900 50  0001 C CNN
+	1    2250 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0106
+U 1 1 606FF465
 P 3050 2200
 F 0 "#PWR0106" H 3050 2050 50  0001 C CNN
-F 1 "+BATT" H 3065 2373 50  0000 C CNN
+F 1 "+24V" V 3065 2328 50  0000 L CNN
 F 2 "" H 3050 2200 50  0001 C CNN
 F 3 "" H 3050 2200 50  0001 C CNN
 	1    3050 2200
 	0    -1   -1   0   
 $EndComp
->>>>>>> Stashed changes
->>>>>>> mmoya/pcb_bq76
+Wire Wire Line
+	6000 5650 6600 5650
+Wire Wire Line
+	6000 5750 6600 5750
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 606AF7AF
+P 7800 5650
+F 0 "#PWR0117" H 7800 5500 50  0001 C CNN
+F 1 "+3.3V" V 7815 5778 50  0000 L CNN
+F 2 "" H 7800 5650 50  0001 C CNN
+F 3 "" H 7800 5650 50  0001 C CNN
+	1    7800 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 5750 7900 5850
+Wire Wire Line
+	7800 5750 7900 5750
+$Comp
+L power:GND #PWR0116
+U 1 1 606AE182
+P 7900 5850
+F 0 "#PWR0116" H 7900 5600 50  0001 C CNN
+F 1 "GND" H 7905 5677 50  0000 C CNN
+F 2 "" H 7900 5850 50  0001 C CNN
+F 3 "" H 7900 5850 50  0001 C CNN
+	1    7900 5850
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6600 5550 1200 300 
+U 603AA906
+F0 "can_hw" 50
+F1 "can_hw.sch" 50
+F2 "3V3" I R 7800 5650 50 
+F3 "CAN_RX" I L 6600 5650 50 
+F4 "CAN_TX" I L 6600 5750 50 
+F5 "GND" I R 7800 5750 50 
+$EndSheet
 $EndSCHEMATC

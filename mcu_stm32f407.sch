@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -526,23 +526,14 @@ Wire Wire Line
 	8500 2200 8500 2350
 Text Notes 6750 4300 0    50   ~ 0
 Additional precautions can be taken to filter analog noise:\n–VDDA can be connected to VDD through a ferrite bead.\n–The VREF+ pin can be connected to VDDA through a 47ohm resistor
-Text HLabel 4950 3800 2    50   Input ~ 0
-SWT_GPIO
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> mmoya/pcb_bq76
-Text HLabel 3150 6500 0    50   Input ~ 0
+Text HLabel 4950 5200 2    50   Input ~ 0
 BQ24_STAT1
-Text HLabel 3150 6400 0    50   Input ~ 0
+Text HLabel 4950 5100 2    50   Input ~ 0
 BQ24_STAT2
-Text HLabel 3150 6300 0    50   Input ~ 0
+Text HLabel 4950 5000 2    50   Input ~ 0
 BQ24_PG
-Text HLabel 3150 6200 0    50   Output ~ 0
+Text HLabel 4950 5300 2    50   Output ~ 0
 BQ24_CE
-<<<<<<< HEAD
-=======
 Text HLabel 10150 2600 0    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -589,9 +580,9 @@ Wire Notes Line
 	9650 3350 11200 3350
 Wire Notes Line
 	11200 2350 9650 2350
-Text GLabel 4950 2600 2    50   Input ~ 0
+Text GLabel 3150 5200 0    50   Input ~ 0
 UART_RX
-Text GLabel 4950 2500 2    50   Input ~ 0
+Text GLabel 4950 6200 2    50   Input ~ 0
 UART_TX
 Text GLabel 10500 3750 0    50   Input ~ 0
 UART_RX
@@ -611,6 +602,6 @@ Text Notes 9700 3450 0    50   ~ 0
 UART
 Text GLabel 4950 3000 2    50   Input ~ 0
 SWCLK
->>>>>>> Stashed changes
->>>>>>> mmoya/pcb_bq76
+Text HLabel 3150 3500 0    50   Input ~ 0
+SWT_GPIO
 $EndSCHEMATC
