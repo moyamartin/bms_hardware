@@ -442,20 +442,16 @@ F 3 "https://ar.mouser.com/ProductDetail/HHXC630ARA100MF80G" H 6950 1450 50  000
 	1    6950 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 1300 1950 1700
-Wire Wire Line
-	1950 1800 1950 2350
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5FF53E53
-P 1750 1800
-F 0 "J3" H 1830 1700 50  0000 L CNN
-F 1 "Vcc In" H 1830 1791 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical" H 1750 1800 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/571-1744429-2/" H 1750 1800 50  0001 C CNN
-	1    1750 1800
-	-1   0    0    1   
+P 1750 1750
+F 0 "J3" H 1830 1650 50  0000 L CNN
+F 1 "Vcc In" H 1830 1741 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical" H 1750 1750 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/571-1744429-2/" H 1750 1750 50  0001 C CNN
+	1    1750 1750
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4050 4150 3800 4150
@@ -1335,4 +1331,8 @@ F 3 "https://ar.mouser.com/ProductDetail/DMP4051LK3-13" H 4050 1400 50  0001 C C
 	1    4050 1400
 	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	1950 1300 1950 1750
+Wire Wire Line
+	1950 1850 1950 2350
 $EndSCHEMATC

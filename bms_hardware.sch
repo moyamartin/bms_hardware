@@ -484,5 +484,34 @@ F3 "CAN_RX" I L 6600 5650 50
 F4 "CAN_TX" I L 6600 5750 50 
 F5 "GND" I R 7800 5750 50 
 $EndSheet
+<<<<<<< HEAD
 >>>>>>> 356c5f8... Final version pcb
+=======
+$Comp
+L Mechanical:MountingHole_Pad -(BATT)1
+U 1 1 604614C9
+P 8700 2800
+F 0 "-(BATT)1" V 8654 2950 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8745 2950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_TopBottom" H 8700 2800 50  0001 C CNN
+F 3 "~" H 8700 2800 50  0001 C CNN
+	1    8700 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 604616E1
+P 8450 2900
+F 0 "#PWR0119" H 8450 2650 50  0001 C CNN
+F 1 "GND" H 8455 2727 50  0000 C CNN
+F 2 "" H 8450 2900 50  0001 C CNN
+F 3 "" H 8450 2900 50  0001 C CNN
+	1    8450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2900 8450 2800
+Wire Wire Line
+	8450 2800 8600 2800
+>>>>>>> 9dc287f... Reorder battery connection pins
 $EndSCHEMATC
