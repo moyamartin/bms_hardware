@@ -8,7 +8,7 @@ Here you will find the design, gerber, [BOM](https://moyamartin.github.io/bms_ha
 
 ## Features
 
-As the main goal of this project, this board is design to support a li-ion
+As the main goal of this project, this board is designed to support a li-ion
 battery pack with a 6 series - 3 parallel architecture based on 18650PF cells
 following the next goals:
 
