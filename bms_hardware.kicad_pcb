@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 22)
     (tracks 1444)
     (zones 0)
     (modules 199)
@@ -10379,6 +10379,18 @@
     )
   )
 
+  (gr_text STAT2 (at 177.825715 126.7) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text PG (at 178.968572 122.98) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text STAT1 (at 177.825715 119.26) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text VCC (at 178.54 115.52) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text CHGR_RST (at 183.3 93.33) (layer F.SilkS) (tstamp 60408C84)
     (effects (font (size 1 1) (thickness 0.15)))
   )
