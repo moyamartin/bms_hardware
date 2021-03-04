@@ -4,7 +4,7 @@
 
 This is the hardware design section of the [BMS project](https://github.com/moyamartin/bms_unr). It was designed with [KiCAD](https://kicad.org/).
 
-Here you will find the design, gerber, [BOM](https://moyamartin.github.io/bms_hardware/) and [render](./render/) files of the PCB.
+Here you will find the design, [gerber](./gerber/), [BOM](https://moyamartin.github.io/bms_hardware/) and [render](./render/) files of the PCB.
 
 ## Features
 

@@ -32,12 +32,10 @@ eagle.epf
 *.crs
 
 *.dri
-*.drl
 *.gpi
 *.pls
 *.ger
 *.xln
-*.gbr
 
 *.drd
 *.drd.*
