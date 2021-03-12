@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
-Title ""
+Title "Battery Managment System (MBS)"
 Date ""
 Rev "A"
-Comp ""
+Comp "Ceccarelli Federico, Moya Martin,  Santos Lucio"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Universidad Nacional de Rosario (UNR)"
+Comment3 "Facultad de Ciencias Exactas, Ingeniería y Agrimensura"
+Comment4 "Proyecto Final - Ingeniería Electrónica"
 $EndDescr
 $Comp
 L MCU_ST_STM32F4:STM32F407VGTx U6

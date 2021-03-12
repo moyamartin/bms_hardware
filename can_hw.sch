@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
-Title ""
+Title "Battery Managment System (MBS)"
 Date ""
 Rev "A"
-Comp ""
+Comp "Ceccarelli Federico, Moya Martin,  Santos Lucio"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Universidad Nacional de Rosario (UNR)"
+Comment3 "Facultad de Ciencias Exactas, Ingeniería y Agrimensura"
+Comment4 "Proyecto Final - Ingeniería Electrónica"
 $EndDescr
 Text HLabel 3300 3350 0    50   Input ~ 0
 CAN_RX
@@ -71,7 +71,7 @@ $EndComp
 Wire Wire Line
 	2550 3150 2550 3200
 $Comp
-L Converter_DCDC:PDM1-S12-S3-S U7
+L bms_hardware-rescue:PDM1-S12-S3-S-Converter_DCDC U7
 U 1 1 60484510
 P 3900 2350
 F 0 "U7" H 3900 2817 50  0000 C CNN

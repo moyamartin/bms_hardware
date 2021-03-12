@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
-Title ""
+Title "Battery Managment System (MBS)"
 Date ""
 Rev "A"
-Comp ""
+Comp "Ceccarelli Federico, Moya Martin,  Santos Lucio"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Universidad Nacional de Rosario (UNR)"
+Comment3 "Facultad de Ciencias Exactas, Ingeniería y Agrimensura"
+Comment4 "Proyecto Final - Ingeniería Electrónica"
 $EndDescr
 Wire Wire Line
 	4950 4950 5000 4950
@@ -590,7 +590,7 @@ V_BAT
 Wire Wire Line
 	4950 4150 4950 4250
 $Comp
-L Battery_Management:BQ76PL536APAPR U2
+L bms_hardware-rescue:BQ76PL536APAPR-Battery_Management U2
 U 1 1 603E20E4
 P 4050 3750
 F 0 "U2" H 4050 6038 60  0000 C CNN

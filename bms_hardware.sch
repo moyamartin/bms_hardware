@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
-Title "bms_unr"
+Title "Battery Managment System (MBS)"
 Date "2021-03-03"
 Rev "A"
-Comp "UNR - FCEIA"
+Comp "Ceccarelli Federico, Moya Martin,  Santos Lucio"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Universidad Nacional de Rosario (UNR)"
+Comment3 "Facultad de Ciencias Exactas, Ingeniería y Agrimensura"
+Comment4 "Proyecto Final - Ingeniería Electrónica"
 $EndDescr
 $Sheet
 S 6600 2650 1200 400 

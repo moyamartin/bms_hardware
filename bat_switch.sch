@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
-Title ""
+Title "Battery Managment System (MBS)"
 Date ""
 Rev "A"
-Comp ""
+Comp "Ceccarelli Federico, Moya Martin,  Santos Lucio"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Universidad Nacional de Rosario (UNR)"
+Comment3 "Facultad de Ciencias Exactas, Ingeniería y Agrimensura"
+Comment4 "Proyecto Final - Ingeniería Electrónica"
 $EndDescr
 $Comp
 L Transistor_BJT:BC848 Q11
@@ -128,9 +128,11 @@ Wire Wire Line
 Wire Wire Line
 	5800 4500 6150 4500
 $Comp
-L 2021-02-09_22-26-07:FERD2045SB-TR U5
+L bms_hardware-rescue:FERD2045SB-TR-2021-02-09_22-26-07 U5
 U 1 1 603F99FF
 P 6250 4500
+AR Path="/603F99FF" Ref="U5"  Part="1" 
+AR Path="/60233007/603F99FF" Ref="U5"  Part="1" 
 F 0 "U5" V 7156 4072 60  0000 R CNN
 F 1 "FERD2045SB-TR" V 7050 4072 60  0000 R CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7050 4740 60  0001 C CNN
@@ -139,7 +141,7 @@ F 3 "https://ar.mouser.com/datasheet/2/389/ferd2045s-1849465.pdf" V 6944 4072 60
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IRF9310PbF Q13
+L bms_hardware-rescue:IRF9310PbF-Transistor_FET Q13
 U 1 1 603FB927
 P 6050 2700
 F 0 "Q13" H 6050 3075 50  0000 C CNN
