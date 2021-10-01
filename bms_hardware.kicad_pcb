@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.9-73d0e3b20d~88~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.9-73d0e3b20d~88~ubuntu20.04.1)
 
   (general
     (thickness 1.6)
@@ -19,7 +19,7 @@
     (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
-    (38 B.Mask user hide)
+    (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
@@ -11570,7 +11570,7 @@
   (segment (start 201.77 118.7625) (end 201.77 118.5) (width 0.25) (layer F.Cu) (net 149))
   (segment (start 201.77 118.5) (end 202.59 117.68) (width 0.25) (layer F.Cu) (net 149))
   (segment (start 203.37 112.55) (end 204.49 111.43) (width 0.25) (layer B.Cu) (net 149))
-  (segment (start 203.37 117.46) (end 203.37 112.55) (width 0.25) (layer B.Cu) (net 149))
+  (segment (start 203.37 112.55) (end 203.37 117.46) (width 0.25) (layer B.Cu) (net 149))
   (segment (start 202.59 117.68) (end 203.15 117.68) (width 0.25) (layer B.Cu) (net 149))
   (segment (start 203.15 117.68) (end 203.37 117.46) (width 0.25) (layer B.Cu) (net 149))
   (via (at 207.96 91.52) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 150) (tstamp 604170CF))

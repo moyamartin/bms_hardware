@@ -367,7 +367,7 @@ Wire Notes Line
 Wire Notes Line
 	11100 650  11100 1700
 $Comp
-L bms_hardware-rescue:TPS54331D-Regulator_Switching U4
+L bms_hardware-rescue:TPS54331D-Regulator_Switching-bms_hardware-rescue U4
 U 1 1 603F4701
 P 4700 1250
 F 0 "U4" H 4700 1920 50  0000 C CNN

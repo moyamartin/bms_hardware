@@ -128,7 +128,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 4500 6150 4500
 $Comp
-L bms_hardware-rescue:FERD2045SB-TR-2021-02-09_22-26-07 U5
+L bms_hardware-rescue:FERD2045SB-TR-2021-02-09_22-26-07-bms_hardware-rescue U5
 U 1 1 603F99FF
 P 6250 4500
 AR Path="/603F99FF" Ref="U5"  Part="1" 
@@ -141,7 +141,7 @@ F 3 "https://ar.mouser.com/datasheet/2/389/ferd2045s-1849465.pdf" V 6944 4072 60
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bms_hardware-rescue:IRF9310PbF-Transistor_FET Q13
+L bms_hardware-rescue:IRF9310PbF-Transistor_FET-bms_hardware-rescue Q13
 U 1 1 603FB927
 P 6050 2700
 F 0 "Q13" H 6050 3075 50  0000 C CNN

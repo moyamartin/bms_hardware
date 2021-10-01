@@ -6,7 +6,6 @@ encoding utf-8
 Sheet 4 9
 Title "Battery Managment System (MBS)"
 Date ""
-Rev "A"
 Rev ""
 Comp "Ceccarelli Federico, Moya Martin,  Santos Lucio"
 Comment1 ""

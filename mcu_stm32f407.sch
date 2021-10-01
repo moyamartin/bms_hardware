@@ -526,19 +526,12 @@ Wire Wire Line
 	8500 2200 8500 2350
 Text Notes 6750 4300 0    50   ~ 0
 Additional precautions can be taken to filter analog noise:\n–VDDA can be connected to VDD through a ferrite bead.\n–The VREF+ pin can be connected to VDDA through a 47ohm resistor
-<<<<<<< HEAD
 Text HLabel 4950 3800 2    50   Input ~ 0
 SWT_GPIO
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> b0e732e... Adds final pcb
 Text HLabel 3150 6500 0    50   Input ~ 0
 =======
 Text HLabel 4950 5200 2    50   Input ~ 0
 >>>>>>> 356c5f8... Final version pcb
-BQ24_STAT1
 Text HLabel 4950 5100 2    50   Input ~ 0
 BQ24_STAT2
 Text HLabel 4950 5000 2    50   Input ~ 0
@@ -613,11 +606,6 @@ Text Notes 9700 3450 0    50   ~ 0
 UART
 Text GLabel 4950 3000 2    50   Input ~ 0
 SWCLK
-<<<<<<< HEAD
->>>>>>> Stashed changes
->>>>>>> b0e732e... Adds final pcb
-=======
 Text HLabel 3150 3500 0    50   Input ~ 0
 SWT_GPIO
->>>>>>> 356c5f8... Final version pcb
 $EndSCHEMATC

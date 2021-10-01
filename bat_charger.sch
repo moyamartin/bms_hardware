@@ -1211,7 +1211,7 @@ Wire Notes Line
 Wire Notes Line
 	5850 500  5850 2800
 Text Notes 5400 650  0    59   ~ 12
-Imput
+Input
 Text Notes 10800 650  0    59   ~ 12
 Output
 Text Label 6950 2550 1    50   ~ 0
