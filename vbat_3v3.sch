@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
-Title ""
+Title "Battery Managment System (MBS)"
 Date ""
 Rev "A"
-Comp ""
+Comp "Ceccarelli Federico, Moya Martin,  Santos Lucio"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Universidad Nacional de Rosario (UNR)"
+Comment3 "Facultad de Ciencias Exactas, Ingeniería y Agrimensura"
+Comment4 "Proyecto Final - Ingeniería Electrónica"
 $EndDescr
 $Comp
 L Diode:B340 D19
@@ -367,7 +367,7 @@ Wire Notes Line
 Wire Notes Line
 	11100 650  11100 1700
 $Comp
-L Regulator_Switching:TPS54331D U4
+L bms_hardware-rescue:TPS54331D-Regulator_Switching-bms_hardware-rescue U4
 U 1 1 603F4701
 P 4700 1250
 F 0 "U4" H 4700 1920 50  0000 C CNN

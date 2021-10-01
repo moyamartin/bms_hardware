@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
-Title "bms_unr"
+Title "Battery Managment System (MBS)"
 Date "2021-03-03"
 Rev "A"
-Comp "UNR - FCEIA"
+Comp "Ceccarelli Federico, Moya Martin,  Santos Lucio"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Universidad Nacional de Rosario (UNR)"
+Comment3 "Facultad de Ciencias Exactas, Ingeniería y Agrimensura"
+Comment4 "Proyecto Final - Ingeniería Electrónica"
 $EndDescr
 $Sheet
 S 6600 2650 1200 400 
@@ -220,14 +220,6 @@ F 3 "" H 6500 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7850 2300 7850 2750
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> b0e732e... Adds final pcb
-=======
->>>>>>> 356c5f8... Final version pcb
 Wire Wire Line
 	6500 2400 6500 2300
 Wire Wire Line
@@ -242,8 +234,6 @@ Wire Wire Line
 	6000 4750 6600 4750
 Wire Wire Line
 	6000 4900 6600 4900
-<<<<<<< HEAD
-<<<<<<< HEAD
 $Comp
 L power:GND #PWR?
 U 1 1 6043EB1E
@@ -255,21 +245,10 @@ F 3 "" H 6500 5150 50  0001 C CNN
 	1    6500 5150
 	1    0    0    -1  
 $EndComp
-=======
->>>>>>> b0e732e... Adds final pcb
-=======
->>>>>>> 356c5f8... Final version pcb
 Wire Wire Line
 	6600 5050 6500 5050
 Wire Wire Line
 	6500 5050 6500 5150
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> b0e732e... Adds final pcb
-=======
->>>>>>> 356c5f8... Final version pcb
 $Sheet
 S 4350 2100 1650 3850
 U 5FE4EB49
@@ -440,10 +419,6 @@ F 3 "" H 3050 2200 50  0001 C CNN
 	1    3050 2200
 	0    -1   -1   0   
 $EndComp
-<<<<<<< HEAD
->>>>>>> Stashed changes
->>>>>>> b0e732e... Adds final pcb
-=======
 Wire Wire Line
 	6000 5650 6600 5650
 Wire Wire Line
@@ -484,9 +459,6 @@ F3 "CAN_RX" I L 6600 5650 50
 F4 "CAN_TX" I L 6600 5750 50 
 F5 "GND" I R 7800 5750 50 
 $EndSheet
-<<<<<<< HEAD
->>>>>>> 356c5f8... Final version pcb
-=======
 $Comp
 L Mechanical:MountingHole_Pad -(BATT)1
 U 1 1 604614C9
@@ -513,5 +485,4 @@ Wire Wire Line
 	8450 2900 8450 2800
 Wire Wire Line
 	8450 2800 8600 2800
->>>>>>> 9dc287f... Reorder battery connection pins
 $EndSCHEMATC

@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
-Title ""
+Title "Battery Managment System (MBS)"
 Date ""
 Rev "A"
-Comp ""
+Comp "Ceccarelli Federico, Moya Martin,  Santos Lucio"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Universidad Nacional de Rosario (UNR)"
+Comment3 "Facultad de Ciencias Exactas, Ingeniería y Agrimensura"
+Comment4 "Proyecto Final - Ingeniería Electrónica"
 $EndDescr
 $Comp
 L MCU_ST_STM32F4:STM32F407VGTx U6
@@ -526,19 +526,12 @@ Wire Wire Line
 	8500 2200 8500 2350
 Text Notes 6750 4300 0    50   ~ 0
 Additional precautions can be taken to filter analog noise:\n–VDDA can be connected to VDD through a ferrite bead.\n–The VREF+ pin can be connected to VDDA through a 47ohm resistor
-<<<<<<< HEAD
 Text HLabel 4950 3800 2    50   Input ~ 0
 SWT_GPIO
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> b0e732e... Adds final pcb
 Text HLabel 3150 6500 0    50   Input ~ 0
 =======
 Text HLabel 4950 5200 2    50   Input ~ 0
 >>>>>>> 356c5f8... Final version pcb
-BQ24_STAT1
 Text HLabel 4950 5100 2    50   Input ~ 0
 BQ24_STAT2
 Text HLabel 4950 5000 2    50   Input ~ 0
@@ -613,11 +606,6 @@ Text Notes 9700 3450 0    50   ~ 0
 UART
 Text GLabel 4950 3000 2    50   Input ~ 0
 SWCLK
-<<<<<<< HEAD
->>>>>>> Stashed changes
->>>>>>> b0e732e... Adds final pcb
-=======
 Text HLabel 3150 3500 0    50   Input ~ 0
 SWT_GPIO
->>>>>>> 356c5f8... Final version pcb
 $EndSCHEMATC
